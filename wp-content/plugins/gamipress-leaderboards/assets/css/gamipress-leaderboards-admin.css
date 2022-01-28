@@ -1,0 +1,75 @@
+/* Leaderboard icon */
+.dashicons-leaderboard {
+    background-image: url('../img/leaderboard.svg');
+}
+
+/* Metrics style */
+.cmb2-id--gamipress-leaderboards-metrics input[value="achievement_types"] + label,
+.cmb2-id--gamipress-leaderboards-metrics input[value="points_types"] + label,
+.cmb2-id--gamipress-leaderboards-metrics input[value="rank_types"] + label {
+    margin-left: 0;
+}
+
+.cmb2-id--gamipress-leaderboards-metrics input[value="achievement_types"]:before,
+.cmb2-id--gamipress-leaderboards-metrics input[value="points_types"]:before,
+.cmb2-id--gamipress-leaderboards-metrics input[value="rank_types"]:before {
+    display: none;
+}
+
+.cmb2-id--gamipress-leaderboards-metrics input[value="achievement_types"] + label:before, .cmb2-id--gamipress-leaderboards-metrics input[value="achievement_types"] + label:after,
+.cmb2-id--gamipress-leaderboards-metrics input[value="points_types"] + label:before, .cmb2-id--gamipress-leaderboards-metrics input[value="points_types"] + label:after,
+.cmb2-id--gamipress-leaderboards-metrics input[value="rank_types"] + label:before, .cmb2-id--gamipress-leaderboards-metrics input[value="rank_types"] + label:after {
+    display: none;
+}
+
+/* Sortable columns */
+.cmb2-id--gamipress-leaderboards-columns .cmb2-list {
+    width: 30em;
+    padding: 0 1px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.cmb2-id--gamipress-leaderboards-columns .cmb2-list li {
+    margin: 0;
+    border-bottom: 1px solid #f4f4f4;
+    background: #fff;
+}
+
+.cmb2-id--gamipress-leaderboards-columns .cmb2-list li:last-child {
+    border-bottom: none;
+}
+
+.cmb2-id--gamipress-leaderboards-columns .cmb2-list li input {
+    top: 6px;
+}
+
+.cmb2-id--gamipress-leaderboards-columns .cmb2-list li label {
+    display: inline-block;
+    padding: 8px 5px;
+    cursor:move;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    width: calc( 100% - 35px );
+}
+
+.cmb2-id--gamipress-leaderboards-columns .cmb2-list .ui-state-highlight {
+    background: #f4f4f4;
+}
+
+.cmb2-id--gamipress-leaderboards-columns .cmb2-list li input:not(:checked) + label,
+.cmb2-id--gamipress-leaderboards-columns .cmb2-list li input:not(:checked):before {
+    opacity: 0.4;
+}
+
+.cmb2-id--gamipress-leaderboards-columns.gamipress-switch input + label:before,
+.cmb2-id--gamipress-leaderboards-columns.gamipress-switch input + label:after {
+    top: 8px;
+}
+
+/* Cache info */
+.gamipress-leaderboards-no-cache-info #_gamipress_leaderboards_clear_cache {
+    display: none;
+}

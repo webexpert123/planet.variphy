@@ -1,0 +1,1162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Polls v3.0.1\n"
+"POT-Creation-Date: 2020-09-16 06:57+0200\n"
+"PO-Revision-Date: 2020-09-16 07:04+0200\n"
+"Last-Translator: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language-Team: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: buddypress-polls.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-buddypress-polls-admin.php:130
+msgid "WB Plugins"
+msgstr "WB-Plugins"
+
+#: admin/class-buddypress-polls-admin.php:131
+#: admin/class-buddypress-polls-admin.php:156
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/class-buddypress-polls-admin.php:133
+msgid "Buddypress Polls Settings Page"
+msgstr "BuddyPress Umfragen Einstellungsseite"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-buddypress-polls-admin.php:133
+#: admin/wbcom/wbcom-admin-settings.php:372 buddypress-polls.php:222
+msgid "BuddyPress Polls"
+msgstr "BuddyPress Umfragen"
+
+#: admin/class-buddypress-polls-admin.php:150
+msgid "BuddyPress Polls Settings"
+msgstr "BuddyPress Umfragen Einstellungen"
+
+#: admin/class-buddypress-polls-admin.php:157
+#: admin/wbcom/templates/wbcom-support-page.php:3
+#: admin/wbcom/wbcom-admin-settings.php:535
+#: admin/wbcom/wbcom-admin-settings.php:620 buddypress-polls.php:192
+msgid "Support"
+msgstr "Support"
+
+#: admin/class-buddypress-polls-admin.php:189
+msgid "Site Polls Data"
+msgstr "Website Umfragedaten"
+
+#: admin/class-buddypress-polls-admin.php:195
+#: admin/class-buddypress-polls-admin.php:293
+#: public/inc/class-bp-poll-activity-graph.php:66
+#: public/inc/class-bp-poll-activity-graph.php:164
+#: public/inc/class-bp-poll-activity-graph.php:273
+msgid "Poll Graph"
+msgstr "Umfragediagramm"
+
+#: admin/class-buddypress-polls-admin.php:261
+msgid "Polls Created"
+msgstr "Erstellte Umfragen"
+
+#: admin/class-buddypress-polls-admin.php:265
+msgid "Highest Voted Poll"
+msgstr "Höchste bewertete Umfrage"
+
+#: admin/class-buddypress-polls-admin.php:269
+msgid "Recent Poll"
+msgstr "Aktuelle Umfrage"
+
+#: admin/class-buddypress-polls-admin.php:277
+#: public/inc/class-bp-poll-activity-graph.php:219
+#: public/inc/class-bp-poll-activity.php:192
+#: public/inc/class-bp-poll-create-poll.php:99
+msgid "No polls created."
+msgstr "Es wurden keine Umfragen erstellt."
+
+#: admin/inc/bpolls-general-setting-tab.php:32
+msgid "Multi select polls"
+msgstr "Umfragen mit Mehrfachauswahl"
+
+#: admin/inc/bpolls-general-setting-tab.php:38
+msgid "Enabled: users can vote for multiple options in each poll."
+msgstr ""
+"Aktiviert: Benutzer können in jeder Umfrage für mehrere Optionen stimmen."
+
+#: admin/inc/bpolls-general-setting-tab.php:40
+msgid "Disabled: users can only vote for one option in each poll."
+msgstr ""
+"Deaktiviert: Benutzer können in jeder Umfrage nur für eine Option abstimmen."
+
+#: admin/inc/bpolls-general-setting-tab.php:45
+msgid "Hide results"
+msgstr "Ergebnisse ausblenden"
+
+#: admin/inc/bpolls-general-setting-tab.php:51
+msgid "Enabled: results are hidden from users who have not voted yet."
+msgstr ""
+"Aktiviert: Die Ergebnisse werden für Benutzer ausgeblendet, die noch nicht "
+"abgestimmt haben."
+
+#: admin/inc/bpolls-general-setting-tab.php:53
+msgid "Disabled: users can see poll results before voting."
+msgstr ""
+"Deaktiviert: Benutzer können die Umfrageergebnisse sehen, bevor sie "
+"abstimmen."
+
+#: admin/inc/bpolls-general-setting-tab.php:58
+#: public/class-buddypress-polls-public.php:217
+msgid "Poll closing date & time"
+msgstr "Umfrageschluss"
+
+#: admin/inc/bpolls-general-setting-tab.php:64
+msgid "Enabled: users can set poll closing date and time."
+msgstr ""
+"Aktiviert: Benutzer können das Enddatum und die Uhrzeit der Umfrage "
+"festlegen."
+
+#: admin/inc/bpolls-general-setting-tab.php:66
+msgid "Disabled: polls will always remain open for voting"
+msgstr "Deaktiviert: Umfragen bleiben immer offen für Abstimmungen"
+
+#: admin/inc/bpolls-general-setting-tab.php:71
+msgid "Enable image attachment"
+msgstr "Bildanhang aktivieren"
+
+#: admin/inc/bpolls-general-setting-tab.php:77
+msgid "Enabled: users can set a image attachment with the poll."
+msgstr "Aktiviert: Benutzer können bei der Umfrage einen Bildanhang anfügen."
+
+#: admin/inc/bpolls-general-setting-tab.php:83
+msgid "Limit Poll Activities"
+msgstr "Umfrageaktivitäten begrenzen"
+
+#: admin/inc/bpolls-general-setting-tab.php:86
+msgid "No Limit"
+msgstr "Keine Begrenzung"
+
+#: admin/inc/bpolls-general-setting-tab.php:89
+msgid "Limit by User Role"
+msgstr "Begrenzung nach Benutzerrolle"
+
+#: admin/inc/bpolls-general-setting-tab.php:92
+msgid "Limit by Member Type"
+msgstr "Begrenzung nach Mitgliedertyp"
+
+#: admin/inc/bpolls-general-setting-tab.php:94
+msgid "Limit by user role or member type to publish poll type activities"
+msgstr ""
+"Begrenzung nach Benutzerrolle oder Mitgliedertyp zur Veröffentlichung von "
+"Aktivitäten vom Umfragetyp"
+
+#: admin/inc/bpolls-general-setting-tab.php:99
+msgid "Select User Roles"
+msgstr "Benutzerrollen auswählen"
+
+#: admin/inc/bpolls-general-setting-tab.php:111
+msgid "Select user role which are allowed to publish poll type activities."
+msgstr ""
+"Wählen Sie die Benutzerrolle, die zur Veröffentlichung von Aktivitäten vom "
+"Umfragetyp berechtigt ist."
+
+#: admin/inc/bpolls-general-setting-tab.php:116
+msgid "Select Member Type"
+msgstr "Mitgliedertyp auswählen"
+
+#: admin/inc/bpolls-general-setting-tab.php:131
+msgid "Select member type which are allowed to publish poll type activities."
+msgstr ""
+"Wählen Sie die Mitgliedertypen aus, die Aktivitäten vom Umfragetyp "
+"veröffentlichen dürfen."
+
+#: admin/inc/bpolls-support-setting-tab.php:14
+msgid "FAQ(s) "
+msgstr "Häufig gestellte Fragen "
+
+#: admin/inc/bpolls-support-setting-tab.php:21
+msgid "Does This plugin requires BuddyPress?"
+msgstr "Benötigt dieses Plugin BuddyPress?"
+
+#: admin/inc/bpolls-support-setting-tab.php:25
+msgid "Yes, It needs you to have BuddyPress installed and activated."
+msgstr "Ja, BuddyPress muss installiert und aktiviert sein."
+
+#: admin/inc/bpolls-support-setting-tab.php:33
+msgid "What to expect when installing and activating BuddyPress Polls?"
+msgstr ""
+"Was ist bei der Installation und Aktivierung von BuddyPress Umfragen zu "
+"erwarten?"
+
+#: admin/inc/bpolls-support-setting-tab.php:37
+msgid ""
+"After activating plugin a poll icon is added to the post box in activity "
+"stream, user profiles and even in groups."
+msgstr ""
+"Nach dem Aktivieren des Plugins wird der Beitragsbox ein Umfragesymbol in "
+"Aktivitäten, Benutzerprofilen und sogar in Gruppen hinzugefügt."
+
+#: admin/inc/bpolls-support-setting-tab.php:40
+msgid ""
+"Post a question for others to vote. BuddyPress Polls plugin allows you and "
+"your community to create polls in posts. The polls can be placed in the main "
+"activity stream, in users’ profiles and even in groups."
+msgstr ""
+"Stellen Sie eine Frage, damit andere abstimmen können. Mit dem BuddyPress-"
+"Plugin für Umfragen können Sie und Ihre Community Umfragen in Beiträgen "
+"erstellen. Die Umfragen können im Hauptaktivitätsstrom, in Benutzerprofilen "
+"und sogar in Gruppen platziert werden."
+
+#: admin/inc/bpolls-support-setting-tab.php:48
+msgid ""
+"What is the use of Multi select polls setting provided under general "
+"settings section?"
+msgstr ""
+"Welche Verwendung hat die Einstellung für Mehrfachauswahl-Umfragen im "
+"Abschnitt „Allgemeine Einstellungen“?"
+
+#: admin/inc/bpolls-support-setting-tab.php:52
+msgid ""
+"When creating a poll users can set either a single select poll – users can "
+"pick just one answer or multiple select poll – users can pick more than one "
+"answer."
+msgstr ""
+"Beim Erstellen einer Umfrage können Benutzer entweder eine „einzelne "
+"Auswahlumfrage“ festlegen - Benutzer können nur eine Antwort auswählen oder "
+"„mehrere Auswahlumfragen“ - Benutzer können mehr als eine Antwort auswählen."
+
+#: admin/inc/bpolls-support-setting-tab.php:60
+msgid ""
+"What is the use of Hide results setting provided under general settings "
+"section?"
+msgstr ""
+"Wofür wird die Einstellung „Ergebnisse ausblenden“ im Abschnitt „Allgemeine "
+"Einstellungen“ verwendet?"
+
+#: admin/inc/bpolls-support-setting-tab.php:64
+msgid ""
+"With hide results setting enabled users can't see the poll results before "
+"voting. They can see the results once they vote on the poll."
+msgstr ""
+"Wenn die Einstellung „Ergebnisse ausblenden“ aktiviert ist, können Benutzer "
+"die Umfrageergebnisse vor der Abstimmung nicht sehen. Sie können die "
+"Ergebnisse sehen, sobald sie an der Umfrage teilgenommen haben."
+
+#: admin/inc/bpolls-support-setting-tab.php:67
+msgid ""
+"With hide results setting disabled users can see the poll results before "
+"voting."
+msgstr ""
+"Wenn die Einstellung „Ergebnisse ausblenden“ deaktiviert ist, können "
+"Benutzer die Umfrageergebnisse vor der Abstimmung anzeigen."
+
+#: admin/inc/bpolls-support-setting-tab.php:75
+msgid ""
+"What is the use of Poll closing date & time setting provided under general "
+"settings section?"
+msgstr ""
+"Wofür wird die Einstellung für das Datum und die Uhrzeit des Umfrageendes im "
+"Abschnitt „Allgemeine Einstellungen“ verwendet?"
+
+#: admin/inc/bpolls-support-setting-tab.php:79
+msgid ""
+"With Poll closing date & time setting enabled users can set poll closing "
+"date and time."
+msgstr ""
+"Mit der aktivierten Einstellung für das Datum und die Uhrzeit des "
+"Umfrageendes können Benutzer die Dauer der Umfrage festlegen."
+
+#: admin/inc/bpolls-support-setting-tab.php:82
+msgid ""
+"With Poll closing date & time setting disabled polls will always remain open "
+"for voting."
+msgstr ""
+"Bei deaktivierter Einstellung für das Datum und die Uhrzeit des Umfrageendes "
+"bleiben Umfragen für die Abstimmung immer geöffnet."
+
+#: admin/inc/bpolls-support-setting-tab.php:90
+msgid "How to show poll activity graph in sidebar?"
+msgstr "Wie zeige ich ein Umfrageaktivitätsdiagramm in der Seitenleiste an?"
+
+#: admin/inc/bpolls-support-setting-tab.php:94
+msgid ""
+"Poll activity graph can be listed in sidebar with the help of widget "
+"(BuddyPress) Poll Activity Graph widget provided by the plugin."
+msgstr ""
+"Das Umfrageaktivitätsdiagramm kann in der Seitenleiste mit Hilfe des Widget "
+"(BuddyPress) Umfrageaktivitätsdiagramm aufgelistet werden, das vom Plugin "
+"bereitgestellt wird."
+
+#: admin/wbcom/templates/wbcom-license-page.php:3
+msgid "Plugin License Settings"
+msgstr "Plugin-Lizenzeinstellungen"
+
+#: admin/wbcom/templates/wbcom-license-page.php:8
+#: admin/wbcom/templates/wbcom-license-page.php:21
+#: edd-license/edd-plugin-license.php:331
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/wbcom/templates/wbcom-license-page.php:9
+#: admin/wbcom/templates/wbcom-license-page.php:22
+#: edd-license/edd-plugin-license.php:332
+msgid "Version"
+msgstr "Version"
+
+#: admin/wbcom/templates/wbcom-license-page.php:10
+#: admin/wbcom/templates/wbcom-license-page.php:23
+#: edd-license/edd-plugin-license.php:333
+msgid "Key"
+msgstr "Schlüssel"
+
+#: admin/wbcom/templates/wbcom-license-page.php:11
+#: admin/wbcom/templates/wbcom-license-page.php:24
+#: edd-license/edd-plugin-license.php:334
+msgid "Status"
+msgstr "Status"
+
+#: admin/wbcom/templates/wbcom-license-page.php:12
+#: admin/wbcom/templates/wbcom-license-page.php:25
+#: edd-license/edd-plugin-license.php:335
+msgid "Action"
+msgstr "Aktion"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:8
+msgid "Free Addons"
+msgstr "Kostenlose Addons"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:14
+msgid "Install"
+msgstr "Installieren"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:18
+#: admin/wbcom/wbcom-admin-settings.php:487
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:22
+#: admin/wbcom/wbcom-admin-settings.php:488
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:50
+msgid "Paid Addons"
+msgstr "Bezahlte Addons"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:67
+msgid "View"
+msgstr "Ansehen"
+
+#: admin/wbcom/templates/wbcom-support-page.php:5
+msgid "Having any question or issue ?"
+msgstr "Haben Sie eine Frage oder ein Problem?"
+
+#: admin/wbcom/templates/wbcom-support-page.php:7
+msgid ""
+"Our team is here to help you out at anytime. If you have any idea about how "
+"we could improve. You can share access to your site on our helpdesk if it "
+"can help getting faster. There are two ways to in touch with us :"
+msgstr ""
+"Unser Team ist jederzeit für Sie da. Wenn Sie eine Idee haben, wie wir uns "
+"verbessern können, dann können Sie den Zugriff auf Ihre Website über unseren "
+"Helpdesk freigeben, wenn dies zu einer schnelleren Entwicklung beiträgt. Es "
+"gibt zwei Möglichkeiten, mit uns in Kontakt zu treten:"
+
+#: admin/wbcom/templates/wbcom-support-page.php:19
+msgid "Tickets Support"
+msgstr "Support Tickets"
+
+#: admin/wbcom/templates/wbcom-support-page.php:20
+msgid ""
+"Open a ticket on our helpdesk, we don't guarantee a fast response but within "
+"a week. Except if you've purchased one of our product we'll reply within 24 "
+"hours."
+msgstr ""
+"Das Öffnen eines Tickets in unserem Helpdesk garantiert eine Antwort "
+"innerhalb einer Woche und innerhalb 24 Stunden, wenn Sie eines unserer "
+"Produkte gekauft haben."
+
+#: admin/wbcom/templates/wbcom-support-page.php:24
+msgid "Open a ticket"
+msgstr "Ein Ticket öffnen"
+
+#: admin/wbcom/templates/wbcom-support-page.php:39
+#: admin/wbcom/templates/wbcom-support-page.php:44
+msgid "Contact Us"
+msgstr "Kontaktieren Sie uns"
+
+#: admin/wbcom/templates/wbcom-support-page.php:40
+msgid ""
+"Create a new thread on our plugin page, participation is open to anyone from "
+"all around the world. We'll be there to help as well but can't guarantee any "
+"delay."
+msgstr ""
+"Erstellen Sie einen neuen Thread auf unserer Plugin-Seite. Die Teilnahme "
+"steht allen auf der Welt offen. Wir helfen gerne, doch sind Verzögerungen "
+"nicht auszuschließen."
+
+#: admin/wbcom/templates/wbcom-themes-page.php:4
+msgid "Reign BuddyPress"
+msgstr "Reign BuddyPress"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:12
+msgid "REIGN Community"
+msgstr "REIGN Community"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:14
+msgid "Multiple Member Directory Layout"
+msgstr "Layout für mehrere Mitgliederverzeichnisse"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:15
+msgid "Multiple Member Header Layout"
+msgstr "Header-Layout für mehrere Mitglieder"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:16
+msgid "Multiple Group Directory Layout"
+msgstr "Layout für mehrere Gruppenverzeichnisse"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:17
+msgid "Multiple Group Header Layout"
+msgstr "Layout für mehrere Gruppen-Header"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:18
+msgid "BuddyPress Customization Options"
+msgstr "BuddyPress Individualisierungsoptionen"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:19
+msgid "BuddyPress Extra Widgets"
+msgstr "BuddyPress Extra Widgets"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:20
+msgid "Inbuilt Social Profile Module"
+msgstr "Integriertes Soziales-Profil-Modul"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:23
+#: admin/wbcom/templates/wbcom-themes-page.php:49
+#: admin/wbcom/templates/wbcom-themes-page.php:73
+#: admin/wbcom/templates/wbcom-themes-page.php:96
+msgid "Purchase"
+msgstr "Kaufen"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:24
+#: admin/wbcom/templates/wbcom-themes-page.php:50
+#: admin/wbcom/templates/wbcom-themes-page.php:74
+#: admin/wbcom/templates/wbcom-themes-page.php:97
+msgid "Preview"
+msgstr "Vorschau"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:30
+msgid "LearnMate"
+msgstr "LearnMate"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:38
+msgid "Learnmate"
+msgstr "Learnmate"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:40
+msgid "Add Review to your course"
+msgstr "Bewertung zu Ihrem Kurs hinzufügen"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:41
+msgid "Course Coming Soon"
+msgstr "Kurs in Kürze"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:42
+#: admin/wbcom/templates/wbcom-themes-page.php:69
+msgid "Grid And List Layout"
+msgstr "Raster- und Listenlayout"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:43
+msgid "Learndash/LifterLMS Extra Widgets"
+msgstr "Learndash / LifterLMS Extra Widgets"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:44
+msgid "Unparalleled Course Layout"
+msgstr "Einmaliges Kurslayout"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:45
+msgid "Awesome Learndash/LifterLMS Pages"
+msgstr "Fantastische Learndash / LifterLMS-Seiten"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:46
+msgid "Distraction Free Reading"
+msgstr "Ablenkungsfreies Lesen"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:56
+msgid "StoreMate"
+msgstr "StoreMate"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:64
+msgid "StoreMate Dokan"
+msgstr "StoreMate Dokan"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:66
+msgid "Dokan Extra Widgets"
+msgstr "Dokan Extra Widgets"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:67
+msgid "Unique Single Product Page Customization"
+msgstr "Einzigartige Anpassung einzelner Produktseiten"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:68
+msgid "Awesome WooCommerce Pages"
+msgstr "Fantastische WooCommerce-Seiten"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:70
+msgid "Automated Mega Menu Support"
+msgstr "Automatisierte Mega-Menüunterstützung"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:80
+msgid "Jobmate"
+msgstr "Jobmate"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:88
+msgid "Jobmate Theme"
+msgstr "Jobmate Theme"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:90
+msgid "Simple live searching and filtering"
+msgstr "Einfaches Live-Suchen und Filtern"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:91
+msgid "Unique Job listing Page"
+msgstr "Einzigartige Jobangebotsseite"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:92
+msgid "Awesome Resume list Page"
+msgstr "Fantastische Bewerberangebotsseite"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:93
+msgid "Outstanding all job maanger pagesLayout"
+msgstr "Hervorragend auf allen Job-Manager-Layout-Seiten"
+
+#: admin/wbcom/wbcom-admin-settings.php:178
+msgid "Custom Font Uploader"
+msgstr "Benutzerdefinierter Schriftarten-Uploader"
+
+#: admin/wbcom/wbcom-admin-settings.php:180
+msgid ""
+"It also allows you to upload your own custom font to your site and use them "
+"using custom css."
+msgstr ""
+"Außerdem können Sie Ihre eigene Schriftart auf Ihre Website hochladen und "
+"sie mit benutzerdefiniertem CSS verwenden."
+
+#: admin/wbcom/wbcom-admin-settings.php:186
+msgid "BuddyPress Activity Filter"
+msgstr "BuddyPress-Aktivitätsfilter"
+
+#: admin/wbcom/wbcom-admin-settings.php:188
+msgid ""
+"Admin can set default and customised activities to be listed on front-end."
+msgstr ""
+"Der Administrator kann festlegen, dass standardmäßige und benutzerdefinierte "
+"Aktivitäten im Front-End gelistet werden."
+
+#: admin/wbcom/wbcom-admin-settings.php:194
+msgid "BuddyPress Activity Social Share"
+msgstr "BuddyPress Activity Social Share"
+
+#: admin/wbcom/wbcom-admin-settings.php:196
+msgid ""
+"This plugin allows anyone easily share BuddyPress Activites on major social "
+"media (Facebook, Twitter, Google+, Linkedin )."
+msgstr ""
+"Mit diesem Plugin kann jeder BuddyPress-Aktivitäten problemlos in wichtigen "
+"sozialen Medien (Facebook, Twitter, Google+, Linkedin) teilen."
+
+#: admin/wbcom/wbcom-admin-settings.php:202
+msgid "BuddyPress Create Group Type"
+msgstr "BuddyPress Gruppentyp erstellen"
+
+#: admin/wbcom/wbcom-admin-settings.php:204
+msgid "It will help to create group type for BuddyPress Groups."
+msgstr ""
+"Es ist hilfreich, einen Gruppentyp für BuddyPress-Gruppen zu erstellen."
+
+#: admin/wbcom/wbcom-admin-settings.php:210
+msgid "BuddyPress Member Reviews"
+msgstr "BuddyPress Mitgliederbewertungen"
+
+#: admin/wbcom/wbcom-admin-settings.php:212
+msgid ""
+"This plugin allows only site members to add reviews to the buddypress "
+"members on the site and even rate the member’s profile out of 5 points with "
+"multiple review criteria."
+msgstr ""
+"Mit diesem Plugin können nur Website-Mitglieder den BuddyPress-Mitgliedern "
+"auf der Website Bewertungen hinzufügen und sogar das Profil des Mitglieds "
+"mit mehreren Bewertungskriterien bis zu 5 Punkten bewerten."
+
+#: admin/wbcom/wbcom-admin-settings.php:218
+msgid "BuddyPress Group Reviews"
+msgstr "BuddyPress Gruppenbewertungen"
+
+#: admin/wbcom/wbcom-admin-settings.php:220
+msgid ""
+"This plugin allows the BuddyPress Members to give reviews to the BuddyPress "
+"groups on the site. The review form allows the users to give text review, "
+"even rate the group on the basis of multiple criterias."
+msgstr ""
+"Mit diesem Plugin können BuddyPress-Mitglieder Bewertungen über BuddyPress-"
+"Gruppen einer Website vornehmen. Über das Bewertungsformular können Benutzer "
+"Textüberprüfungen durchführen und die Gruppe sogar anhand mehrerer Kriterien "
+"bewerten."
+
+#: admin/wbcom/wbcom-admin-settings.php:226
+msgid "BuddyPress Favorite Notification"
+msgstr "BuddyPress Favoritenbenachrichtigung"
+
+#: admin/wbcom/wbcom-admin-settings.php:228
+msgid ""
+"BuddyPress Favorite Notification adds a notification for BuddyPress activity."
+msgstr ""
+"BuddyPress Favorite Notification fügt eine Benachrichtigung für BuddyPress-"
+"Aktivitäten hinzu."
+
+#: admin/wbcom/wbcom-admin-settings.php:234
+msgid "Custom Email Options"
+msgstr "Benutzerdefinierte E-Mail-Optionen"
+
+#: admin/wbcom/wbcom-admin-settings.php:236
+msgid "Override default email options of WordPress."
+msgstr "Überschreiben Sie die Standard-E-Mail-Optionen von WordPress."
+
+#: admin/wbcom/wbcom-admin-settings.php:242
+msgid "BuddyPress Checkins"
+msgstr "BuddyPress Checkins"
+
+#: admin/wbcom/wbcom-admin-settings.php:244
+msgid ""
+"This plugin allows BuddyPress members to share their location when they are "
+"posting activities, you can add places where you visited, nearby locations "
+"based on google places."
+msgstr ""
+"Mit diesem Plugin können BuddyPress-Mitglieder ihren Standort teilen, wenn "
+"sie Aktivitäten veröffentlichen. Sie können Orte in der Nähe, die Sie "
+"besucht haben, basierend auf Google Places, hinzufügen."
+
+#: admin/wbcom/wbcom-admin-settings.php:250
+msgid "BuddyPress Job Manager"
+msgstr "BuddyPress Job Manager"
+
+#: admin/wbcom/wbcom-admin-settings.php:252
+msgid ""
+"Incorporates BuddyPress with the WP Job Manager plugin by creating specific "
+"tabs in employer’s and candidate’s profiles."
+msgstr ""
+"Integriert BuddyPress mit dem WP Job Manager-Plugin, indem bestimmte "
+"Registerkarten in den Profilen von Arbeitgebern und Kandidaten erstellt "
+"werden."
+
+#: admin/wbcom/wbcom-admin-settings.php:258
+msgid "BuddyPress user ToDo List"
+msgstr "BuddyPress-Benutzer-ToDo-Liste"
+
+#: admin/wbcom/wbcom-admin-settings.php:260
+msgid ""
+"This plugin allows you to create your personal task list with timestamp. You "
+"can mark them complete when you are done with them. It will also send "
+"reminder when you have any overdue task."
+msgstr ""
+"Mit diesem Plugin können Sie Ihre persönliche Aufgabenliste mit Zeitstempel "
+"erstellen. Sie können sie als vollständig markieren, wenn Sie fertig sind. "
+"Es wird auch eine Erinnerung zugestellt, wenn Sie eine überfällige Aufgabe "
+"haben."
+
+#: admin/wbcom/wbcom-admin-settings.php:266
+msgid "Shortcodes for BuddyPress"
+msgstr "Shortcodes für BuddyPress"
+
+#: admin/wbcom/wbcom-admin-settings.php:268
+msgid ""
+"This plugin will add an extended feature to the big name “BuddyPress” that "
+"will generate Shortcode for Listing Activity Streams , Members and Groups on "
+"any post/page in website."
+msgstr ""
+"Dieses Plugin fügt dem großartigen \"BuddyPress\" eine erweiterte Funktion "
+"hinzu, die einen Shortcode zum Auflisten von Aktivitätsströmen, Mitgliedern "
+"und Gruppen auf allen Posts / Seiten auf der Website generiert."
+
+#: admin/wbcom/wbcom-admin-settings.php:274
+msgid "Woo Open Graph"
+msgstr "Woo Open Graph"
+
+#: admin/wbcom/wbcom-admin-settings.php:276
+msgid ""
+"This plugin will add an extended feature to the big name “WooCommerce” that "
+"will adds well executed and accurate Open Graph Meta Tags to your site with "
+"title,description and WooCommerce featured image."
+msgstr ""
+"Dieses Plugin fügt dem großartigen \"WooCommerce\" eine erweiterte Funktion "
+"hinzu, die Ihrer Website gut ausgeführte und genaue Open Graph Meta Tags mit "
+"Titel, Beschreibung und WooCommerce-Bild beigibt."
+
+#: admin/wbcom/wbcom-admin-settings.php:282
+msgid "BuddyPress Lock"
+msgstr "BuddyPress-Sperre"
+
+#: admin/wbcom/wbcom-admin-settings.php:284
+msgid ""
+"This plugin allows the administrator to lock the certain parts of their "
+"site. It help to create private BuddyPress community by locking certain "
+"BuddyPress Components, WordPress Pages, Custom Post Types for public view "
+"without using any membership plugin."
+msgstr ""
+"Mit diesem Plugin kann der Administrator bestimmte Teile seiner Website "
+"sperren. Sie können eine private BuddyPress-Community erstellen, indem Sie "
+"bestimmte BuddyPress-Komponenten, WordPress-Seiten und benutzerdefinierte "
+"Beitragstypen für die öffentliche Ansicht sperren ohne ein Mitgliedschafts-"
+"Plugin verwenden zu müssen."
+
+#: admin/wbcom/wbcom-admin-settings.php:290
+msgid "Woo Audio Preview"
+msgstr "Woo Audio Vorschau"
+
+#: admin/wbcom/wbcom-admin-settings.php:292
+msgid ""
+"This plugin Allows playing the audio files in sample mode to prevent "
+"unauthorized downloading of the audio files. It helps to display sample "
+"files at single product page."
+msgstr ""
+"Dieses Plugin Ermöglicht das Abspielen der Audiodateien im Sample-Modus, um "
+"ein unbefugtes Herunterladen der Audiodateien zu verhindern. Es ist "
+"hilfreich, Beispieldateien auf einer einzelnen Produktseite anzuzeigen."
+
+#: admin/wbcom/wbcom-admin-settings.php:298
+msgid "WordPress System Log"
+msgstr "WordPress-Systemprotokoll"
+
+#: admin/wbcom/wbcom-admin-settings.php:300
+msgid ""
+"This plugin helps administrators of the site see their environment on which "
+"the site is currently running that includes WordPress environment, tha "
+"database it requires, Server Environment and the plugins installed and "
+"activated on the site."
+msgstr ""
+"Dieses Plugin hilft Administratoren der Website dabei, ihre Umgebung zu "
+"erkennen, in der die Website derzeit ausgeführt wird. Dazu gehören die "
+"WordPress-Umgebung, die erforderliche Datenbank, die Serverumgebung und die "
+"auf der Site installierten und aktivierten Plugins."
+
+#: admin/wbcom/wbcom-admin-settings.php:306
+msgid "BP Post From Anywhere"
+msgstr "BP Post von überall"
+
+#: admin/wbcom/wbcom-admin-settings.php:308
+msgid ""
+"This plugin will generate shortcode and widgets for post updates section for "
+"activities so you can post update from anywhere, it might be sidebar, some "
+"page or any template file."
+msgstr ""
+"Dieses Plugin generiert einen Shortcode und Widgets für den Abschnitt zum "
+"Posten von Aktualisierungen für Aktivitäten, sodass Sie Aktualisierungen von "
+"jedem Ort aus posten können. Dies kann eine Seitenleiste, eine Seite oder "
+"eine Vorlagendatei sein."
+
+#: admin/wbcom/wbcom-admin-settings.php:314
+msgid "Woo Document Preview"
+msgstr "Woo-Dokumentvorschau"
+
+#: admin/wbcom/wbcom-admin-settings.php:316
+msgid ""
+"This will allow you to add document preview at single product page. Which "
+"helps to offer more better idea when you are selling ebooks, pdf or some "
+"documents."
+msgstr ""
+"Auf diese Weise können Sie eine Dokumentvorschau auf einer einzelnen "
+"Produktseite hinzufügen. So können Sie beim Verkauf von eBooks, PDFs oder "
+"einigen Dokumenten eine bessere Vorstellung gewinnen."
+
+#: admin/wbcom/wbcom-admin-settings.php:322
+msgid "WordPress Media Category"
+msgstr "WordPress-Medienkategorie"
+
+#: admin/wbcom/wbcom-admin-settings.php:324
+#: admin/wbcom/wbcom-admin-settings.php:340
+msgid ""
+"This plugin helps administrators of the site categorize their wordpress "
+"media."
+msgstr ""
+"Dieses Plugin hilft Administratoren der Website, ihre WordPress-Medien zu "
+"kategorisieren."
+
+#: admin/wbcom/wbcom-admin-settings.php:330
+msgid "Woo Price Quotes"
+msgstr "Woo Preis Angebote"
+
+#: admin/wbcom/wbcom-admin-settings.php:332
+msgid ""
+"This plugin helps in quoting the products that admin wishes to hide its "
+"purchasing details."
+msgstr ""
+"Dieses Plugin hilft bei der Angabe der Produkte, deren Kaufdetails der "
+"Administrator verbergen möchte."
+
+#: admin/wbcom/wbcom-admin-settings.php:338
+msgid "EDD Service Extended"
+msgstr "EDD-Service erweitert"
+
+#: admin/wbcom/wbcom-admin-settings.php:346
+msgid "WB Ads Rotator with Split Test"
+msgstr "WB Ads Rotator mit Split-Prüfung"
+
+#: admin/wbcom/wbcom-admin-settings.php:348
+msgid ""
+"This plugin is designed for the SPLIT TESTING, you can check performance of "
+"your ads layout and on the basis of them you can select one of them for your "
+"regular use."
+msgstr ""
+"Dieses Plugin wurde für die SPLIT-PRÜFUNG entwickelt. Sie können die "
+"Leistung Ihres Anzeigenlayouts überprüfen und eines davon für die "
+"regelmäßige Verwendung auswählen."
+
+#: admin/wbcom/wbcom-admin-settings.php:366
+msgid "BuddyPress Moderation Pro"
+msgstr "BuddyPress Moderation Pro"
+
+#: admin/wbcom/wbcom-admin-settings.php:367
+msgid ""
+"BuddyPress Community Moderation offers a solution for site owners to keep "
+"their communities straight. With community policing strategy, members of the "
+"community have an option for moderation sitewide by attaching flags to "
+"content created within the various components."
+msgstr ""
+"BuddyPress Community Moderation bietet eine Lösung für Website-Besitzer an, "
+"mit der sie ihre Communitys übersichtlich halten können. Mit der Community-"
+"Überwachungsstrategie haben Mitglieder der Community eine Option zur "
+"portalübergreifenden Moderation, indem sie Flags an Inhalte anhängen können, "
+"die innerhalb der verschiedenen Komponenten erstellt wurden."
+
+#: admin/wbcom/wbcom-admin-settings.php:373
+msgid ""
+"Use BuddyPress Polls plugin to create polls inside the activity, let your "
+"user response to your polls. Members can create pools like activities, "
+"easily votes on them."
+msgstr ""
+"Verwenden Sie das BuddyPress-Umfragen-Plugin, um Umfragen innerhalb der "
+"Aktivität zu erstellen. Lassen Sie Ihre Benutzer auf Ihre Umfragen "
+"antworten. Mitglieder können Pools wie Aktivitäten erstellen und einfach "
+"über diese abstimmen."
+
+#: admin/wbcom/wbcom-admin-settings.php:378
+msgid "BuddyPress Resume Manager"
+msgstr "BuddyPress Lebenslauf-Manager"
+
+#: admin/wbcom/wbcom-admin-settings.php:379
+msgid ""
+"BuddyPress Resume Manager adds a separate BuddyPress Resume menu at a user’s "
+"BuddyPress Profile Page to display individual member resume. We have added "
+"predefined fields for the resumes and site admin and enable and disable them."
+msgstr ""
+"BuddyPress Lebenslauf-Manager fügt ein separates BuddyPress Lebenslauf-Menü "
+"auf der BuddyPress-Profilseite eines Benutzers hinzu, um den Lebenslauf "
+"einzelner Mitglieder anzuzeigen. Wir haben vordefinierte Felder für die "
+"Lebensläufe und den Website-Administrator hinzugefügt, zum Aktivieren und "
+"Deaktivieren."
+
+#: admin/wbcom/wbcom-admin-settings.php:384
+msgid "BuddyPress Profanity"
+msgstr "BuddyPress Profanity"
+
+#: admin/wbcom/wbcom-admin-settings.php:385
+msgid ""
+"Use BuddyPress Profanity plugin to censor content in your community! Easily "
+"Censor all the unwanted words in activities, private messages contents by "
+"specifying a list of keywords to be filtered."
+msgstr ""
+"Verwenden Sie das BuddyPress Profanity-Plugin, um Inhalte in Ihrer Community "
+"zu zensieren! Zensieren Sie auf einfache Weise alle unerwünschten Wörter in "
+"Aktivitäten und den Inhalt privater Nachrichten, indem Sie eine Liste der zu "
+"filternden Schlüsselwörter angeben."
+
+#: admin/wbcom/wbcom-admin-settings.php:390
+msgid "BuddyPress Private Community Pro"
+msgstr "BuddyPress Private Community Pro"
+
+#: admin/wbcom/wbcom-admin-settings.php:391
+msgid ""
+"This plugin offers a lockdown for BuddyPress Component and will ask users to "
+"log in go further to check profile or any other protected details."
+msgstr ""
+"Dieses Plugin bietet eine Sperre für BuddyPress-Komponenten und fordert "
+"Benutzer auf, sich anzumelden, um das Profil oder andere geschützte Details "
+"zu überprüfen."
+
+#: admin/wbcom/wbcom-admin-settings.php:396
+msgid "BuddyPress Profile Pro"
+msgstr "BuddyPress Profil Pro"
+
+#: admin/wbcom/wbcom-admin-settings.php:397
+msgid ""
+"This plugin gives you the power to extend BuddyPress Profiles with repeater "
+"fields and groups. You can easily add multiple field groups and display them "
+"at member’s profile."
+msgstr ""
+"Mit diesem Plugin können Sie BuddyPress-Profile mit Repeater-Feldern und -"
+"Gruppen erweitern. Sie können problemlos mehrere Feldgruppen hinzufügen und "
+"diese im Profil des Mitglieds anzeigen."
+
+#: admin/wbcom/wbcom-admin-settings.php:529
+#: admin/wbcom/wbcom-admin-settings.php:608
+msgid "Components"
+msgstr "Komponenten"
+
+#: admin/wbcom/wbcom-admin-settings.php:532
+#: admin/wbcom/wbcom-admin-settings.php:614
+msgid "Themes"
+msgstr "Themes"
+
+#: admin/wbcom/wbcom-admin-settings.php:602 buddypress-polls.php:191
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/wbcom/wbcom-paid-plugin-settings.php:29
+#: admin/wbcom/wbcom-paid-plugin-settings.php:43
+msgid "License"
+msgstr "Lizenz"
+
+#: buddypress-polls.php:156 buddypress-polls.php:174
+msgid ""
+"BuddyPress Polls requires to be activated on the blog where BuddyPress is "
+"activated."
+msgstr ""
+"BuddyPress-Umfragen müssen in dem Blog aktiviert sein, in dem BuddyPress "
+"aktiviert ist."
+
+#: buddypress-polls.php:161 buddypress-polls.php:180
+msgid ""
+"BuddyPress Polls and BuddyPress need to share the same network configuration."
+msgstr ""
+"BuddyPress Umfragen und BuddyPress müssen dieselbe Netzwerkkonfiguration "
+"verwenden."
+
+#: buddypress-polls.php:223
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: buddypress-polls.php:225
+#, php-format
+msgid "%1$s is ineffective now as it requires %2$s to be installed and active."
+msgstr "%1$s ist jetzt unwirksam, da %2$s installiert und aktiv sein muss."
+
+#: edd-license/EDD_BPOLLS_Plugin_Updater.php:206
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sVersion ansehen %3$s Details"
+"%4$s."
+
+#: edd-license/EDD_BPOLLS_Plugin_Updater.php:214
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sVersion ansehen %3$s Details"
+"%4$s oder %5$sjetzt aktualisieren%6$s."
+
+#: edd-license/EDD_BPOLLS_Plugin_Updater.php:408
+msgid "You do not have permission to install plugin updates"
+msgstr "Sie haben keine Berechtigung, Plugin-Updates zu installieren"
+
+#: edd-license/EDD_BPOLLS_Plugin_Updater.php:408
+msgid "Error"
+msgstr "Fehler"
+
+#: edd-license/edd-plugin-license.php:102
+#: edd-license/edd-plugin-license.php:138
+#: edd-license/edd-plugin-license.php:211
+msgid "An error occurred, please try again."
+msgstr "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut."
+
+#: edd-license/edd-plugin-license.php:111
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Ihr Lizenzschlüssel ist am %s abgelaufen."
+
+#: edd-license/edd-plugin-license.php:117
+msgid "Your license key has been disabled."
+msgstr "Ihr Lizenzschlüssel wurde deaktiviert."
+
+#: edd-license/edd-plugin-license.php:121
+msgid "Invalid license."
+msgstr "Ungültige Lizenz."
+
+#: edd-license/edd-plugin-license.php:126
+msgid "Your license is not active for this URL."
+msgstr "Ihre Lizenz ist für diese URL nicht aktiv."
+
+#: edd-license/edd-plugin-license.php:130
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Dies scheint ein ungültiger Lizenzschlüssel für %s zu sein."
+
+#: edd-license/edd-plugin-license.php:134
+msgid "Your license key has reached its activation limit."
+msgstr "Ihr Lizenzschlüssel hat sein Aktivierungslimit erreicht."
+
+#: edd-license/edd-plugin-license.php:352
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: edd-license/edd-plugin-license.php:359
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: public/class-buddypress-polls-public.php:141
+msgid "Submitting vote"
+msgstr "Übermittlung der abgegebenen Stimme"
+
+#: public/class-buddypress-polls-public.php:142
+msgid "Please select your choice."
+msgstr "Bitte wählen Sie Ihre Wahl."
+
+#: public/class-buddypress-polls-public.php:197
+msgid "Cancel Poll"
+msgstr "Umfrage abbrechen"
+
+#: public/class-buddypress-polls-public.php:204
+msgid "Option 1"
+msgstr "Option 1"
+
+#: public/class-buddypress-polls-public.php:209
+msgid "Option 2"
+msgstr "Option 2"
+
+#: public/class-buddypress-polls-public.php:214
+msgid "Add new option"
+msgstr "Neue Option hinzufügen"
+
+#: public/class-buddypress-polls-public.php:224
+msgid "Allow multiple options selection"
+msgstr "Auswahl mehrerer Optionen zulassen"
+
+#: public/class-buddypress-polls-public.php:265
+msgid "Polls Update"
+msgstr "Umfragen aktualisieren"
+
+#: public/class-buddypress-polls-public.php:267
+msgid "Poll"
+msgstr "Umfrage"
+
+#: public/class-buddypress-polls-public.php:276
+#: public/class-buddypress-polls-public.php:290
+#, php-format
+msgid "%s created a poll"
+msgstr "%s hat eine Umfrage erstellt"
+
+#: public/class-buddypress-polls-public.php:321
+#, php-format
+msgid "%1$s created a poll in the group %2$s"
+msgstr "%1$s hat eine Umfrage in der Gruppe %2$s erstellt"
+
+#: public/class-buddypress-polls-public.php:528
+msgid "Submit"
+msgstr "Senden"
+
+#: public/inc/class-bp-poll-activity-graph.php:27
+msgid "A poll graph widget"
+msgstr "Ein Umfragediagramm-Widget"
+
+#: public/inc/class-bp-poll-activity-graph.php:31
+msgctxt "widget name"
+msgid "(BuddyPress) Poll Graph"
+msgstr "(BuddyPress) Umfragediagramm"
+
+#: public/inc/class-bp-poll-activity-graph.php:202
+msgid "Select activity to view poll results:"
+msgstr "Aktivität auswählen, um Umfrageergebnisse anzuzeigen:"
+
+#: public/inc/class-bp-poll-activity-graph.php:285
+#: public/inc/class-bp-poll-activity.php:255
+#: public/inc/class-bp-poll-create-poll.php:162
+msgid "Title:"
+msgstr "Überschrift:"
+
+#: public/inc/class-bp-poll-activity-graph.php:287
+msgid "Max Poll to show:"
+msgstr "Max Umfragen zum Anzeigen:"
+
+#: public/inc/class-bp-poll-activity-graph.php:291
+msgid "Default Poll to display:"
+msgstr "Anzuzeigende Standardumfrage:"
+
+#: public/inc/class-bp-poll-activity-graph.php:301
+#: public/inc/class-bp-poll-activity.php:268
+#: public/inc/class-bp-poll-create-poll.php:175
+msgid "No polls are created yet."
+msgstr "Es wurden noch keine Umfragen erstellt."
+
+#: public/inc/class-bp-poll-activity.php:27
+msgid "Display the results for the polls of your choice."
+msgstr "Zeigen Sie die Ergebnisse für die Umfragen Ihrer Wahl an."
+
+#: public/inc/class-bp-poll-activity.php:31
+msgctxt "widget name"
+msgid "(BuddyPress) Poll Results"
+msgstr "(BuddyPress) Umfrageergebnisse"
+
+#: public/inc/class-bp-poll-activity.php:57
+#: public/inc/class-bp-poll-activity.php:147
+#: public/inc/class-bp-poll-activity.php:245
+msgid "Poll Activity"
+msgstr "Umfrageaktivität"
+
+#: public/inc/class-bp-poll-activity.php:258
+#: public/inc/class-bp-poll-create-poll.php:165
+msgid "Select Poll activity to display:"
+msgstr "Wählen Sie Umfrageaktivität zum Anzeigen:"
+
+#: public/inc/class-bp-poll-create-poll.php:27
+msgid "A dynamic poll system. Users can give votes dynamically via widget."
+msgstr ""
+"Ein dynamisches Umfragesystem. Benutzer können ihre Stimme dynamisch über "
+"ein Widget abgeben."
+
+#: public/inc/class-bp-poll-create-poll.php:31
+msgctxt "widget name"
+msgid "(BuddyPress) Dynamic Poll Widget"
+msgstr "(BuddyPress) Dynamisches Umfrage-Widget"
+
+#: public/inc/class-bp-poll-create-poll.php:53
+#: public/inc/class-bp-poll-create-poll.php:152
+msgid "Create Poll"
+msgstr "Umfrage erstellen"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wbcomdesigns.com/plugins/"
+msgstr "http://www.wbcomdesigns.com/plugins/"
+
+#. Description of the plugin/theme
+msgid ""
+"BuddyPress Polls plugin allows you and your community to create polls in "
+"posts. The polls can be placed in the main activity stream, in users’ "
+"profiles and even in groups."
+msgstr ""
+"Mit dem BuddyPress-Plugin für Umfragen können Sie und Ihre Community "
+"Umfragen in Beiträgen erstellen. Die Umfragen können im "
+"Hauptaktivitätsstrom, in Benutzerprofilen und sogar in Gruppen platziert "
+"werden."
+
+#. Author of the plugin/theme
+msgid "wbcomdesigns"
+msgstr "wbcomdesigns"
+
+#. Author URI of the plugin/theme
+msgid "https://wbcomdesigns.com"
+msgstr "https://wbcomdesigns.com"
+
+#~ msgid "Save Changes"
+#~ msgstr "Änderungen speichern"
+
+#~ msgid "&nbsp;Poll"
+#~ msgstr "&nbsp;Umfrage"

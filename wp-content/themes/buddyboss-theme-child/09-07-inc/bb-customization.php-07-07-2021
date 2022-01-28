@@ -1,0 +1,12 @@
+<?php
+add_filter( 'bp_activity_get_visibility_levels', 'cstm_bp_activity_get_visibility_levels',99 );
+function cstm_bp_activity_get_visibility_levels($visibility_levels){
+	if(isset($visibility_levels['friends'])){
+		unset($visibility_levels['friends']);
+	}
+	if(isset($visibility_levels['onlyme'])){
+		unset($visibility_levels['onlyme']);
+	}
+	return $visibility_levels;
+
+}

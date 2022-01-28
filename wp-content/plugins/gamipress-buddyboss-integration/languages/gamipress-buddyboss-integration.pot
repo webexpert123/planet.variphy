@@ -1,0 +1,1188 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress BuddyPress Integration\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2021-09-06 13:22+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-buddyboss.php:216
+#, php-format
+msgid "GamiPress - BuddyBoss integration requires %s and %s in order to work. Please install and activate them."
+msgstr ""
+
+#: includes/community/includes/admin.php:79
+#: includes/community/includes/admin/recount-activity.php:23
+#: includes/triggers.php:21
+msgid "BuddyBoss"
+msgstr ""
+
+#: includes/community/includes/admin.php:85
+msgid "Where Place User Points?"
+msgstr ""
+
+#: includes/community/includes/admin.php:86
+msgid "Check the areas you wish to show the user points."
+msgstr ""
+
+#: includes/community/includes/admin.php:90
+#: includes/community/includes/admin.php:129
+#: includes/community/includes/admin.php:186
+msgid "At top of the user profile (before the user name)"
+msgstr ""
+
+#: includes/community/includes/admin.php:91
+#: includes/community/includes/admin.php:130
+#: includes/community/includes/admin.php:187
+msgid "On members listing"
+msgstr ""
+
+#: includes/community/includes/admin.php:92
+#: includes/community/includes/admin.php:131
+#: includes/community/includes/admin.php:188
+msgid "On activities"
+msgstr ""
+
+#: includes/community/includes/admin.php:96
+#: includes/community/includes/admin.php:299
+msgid "Points Types"
+msgstr ""
+
+#: includes/community/includes/admin.php:97
+msgid "Choose the points types you want to show."
+msgstr ""
+
+#: includes/community/includes/admin.php:98
+#: includes/community/includes/admin.php:137
+#: includes/community/includes/admin.php:194
+msgid "<strong>Note:</strong> You can drag and drop this options to reorder them. The order you set will affect to the order they will get displayed."
+msgstr ""
+
+#: includes/community/includes/admin.php:103
+#: includes/community/includes/admin.php:142
+#: includes/community/includes/admin.php:199
+#: includes/forums/includes/admin.php:63 includes/forums/includes/admin.php:96
+#: includes/forums/includes/admin.php:146
+msgid "Show Thumbnail"
+msgstr ""
+
+#: includes/community/includes/admin.php:104
+#: includes/forums/includes/admin.php:64
+msgid "Show the points type featured image."
+msgstr ""
+
+#: includes/community/includes/admin.php:109
+#: includes/community/includes/admin.php:148
+#: includes/community/includes/admin.php:205
+#: includes/forums/includes/admin.php:69 includes/forums/includes/admin.php:102
+#: includes/forums/includes/admin.php:152
+msgid "Thumbnail Size"
+msgstr ""
+
+#: includes/community/includes/admin.php:110
+#: includes/community/includes/admin.php:149
+#: includes/community/includes/admin.php:206
+#: includes/forums/includes/admin.php:70 includes/forums/includes/admin.php:103
+#: includes/forums/includes/admin.php:153
+msgid "Set the thumbnail size (in pixels)."
+msgstr ""
+
+#: includes/community/includes/admin.php:115
+#: includes/community/includes/admin.php:166
+#: includes/community/includes/admin.php:223
+#: includes/forums/includes/admin.php:75 includes/forums/includes/admin.php:120
+#: includes/forums/includes/admin.php:170
+msgid "Show Label"
+msgstr ""
+
+#: includes/community/includes/admin.php:116
+#: includes/forums/includes/admin.php:76
+msgid "Show the points type singular or plural label."
+msgstr ""
+
+#: includes/community/includes/admin.php:124
+msgid "Where Place User Achievements?"
+msgstr ""
+
+#: includes/community/includes/admin.php:125
+msgid "Check the areas you wish to show the user achievements."
+msgstr ""
+
+#: includes/community/includes/admin.php:135
+#: includes/forums/includes/admin.php:84
+msgid "User Profile Achievement Types"
+msgstr ""
+
+#: includes/community/includes/admin.php:136
+msgid "Choose the achievement types you want to show."
+msgstr ""
+
+#: includes/community/includes/admin.php:143
+#: includes/community/includes/admin.php:200
+#: includes/forums/includes/admin.php:97
+msgid "Show the achievement featured image."
+msgstr ""
+
+#: includes/community/includes/admin.php:154
+#: includes/community/includes/admin.php:211
+#: includes/forums/includes/admin.php:108
+#: includes/forums/includes/admin.php:158
+msgid "Show Title"
+msgstr ""
+
+#: includes/community/includes/admin.php:155
+#: includes/forums/includes/admin.php:109
+msgid "Show the achievements title."
+msgstr ""
+
+#: includes/community/includes/admin.php:160
+#: includes/community/includes/admin.php:217
+#: includes/forums/includes/admin.php:114
+#: includes/forums/includes/admin.php:164
+msgid "Show Link"
+msgstr ""
+
+#: includes/community/includes/admin.php:161
+#: includes/forums/includes/admin.php:115
+msgid "Add a link to the achievement page."
+msgstr ""
+
+#: includes/community/includes/admin.php:167
+#: includes/forums/includes/admin.php:121
+msgid "Show the achievement type label."
+msgstr ""
+
+#: includes/community/includes/admin.php:172
+#: includes/community/includes/admin.php:353
+msgid "Limit"
+msgstr ""
+
+#: includes/community/includes/admin.php:173
+#: includes/community/includes/admin.php:354
+msgid "Number of achievements to display."
+msgstr ""
+
+#: includes/community/includes/admin.php:181
+msgid "Where Place User Ranks?"
+msgstr ""
+
+#: includes/community/includes/admin.php:182
+msgid "Check the areas you wish to show the user ranks."
+msgstr ""
+
+#: includes/community/includes/admin.php:192
+#: includes/community/includes/admin.php:402
+msgid "Rank Types"
+msgstr ""
+
+#: includes/community/includes/admin.php:193
+msgid "Choose the rank types you want to show."
+msgstr ""
+
+#: includes/community/includes/admin.php:212
+msgid "Show the rank title."
+msgstr ""
+
+#: includes/community/includes/admin.php:218
+#: includes/forums/includes/admin.php:165
+msgid "Add a link to the rank page."
+msgstr ""
+
+#: includes/community/includes/admin.php:224
+#: includes/forums/includes/admin.php:171
+msgid "Show the rank type label."
+msgstr ""
+
+#: includes/community/includes/admin.php:233
+#: includes/community/includes/admin.php:290
+#: includes/community/includes/admin.php:453
+#: includes/community/includes/components/gamipress-points-bp-component.php:32
+#: includes/community/includes/components/gamipress-points-bp-component.php:68
+#: includes/forums/includes/admin.php:179
+msgid "Points"
+msgstr ""
+
+#: includes/community/includes/admin.php:244
+#: includes/community/includes/admin.php:318
+#: includes/community/includes/admin.php:463
+#: includes/community/includes/bp-members.php:91
+#: includes/community/includes/components/gamipress-achievements-bp-component.php:32
+#: includes/community/includes/components/gamipress-achievements-bp-component.php:73
+#: includes/forums/includes/admin.php:190
+msgid "Achievements"
+msgstr ""
+
+#: includes/community/includes/admin.php:258
+#: includes/community/includes/admin.php:393
+#: includes/community/includes/admin.php:478
+#: includes/community/includes/components/gamipress-ranks-bp-component.php:32
+#: includes/community/includes/components/gamipress-ranks-bp-component.php:68
+#: includes/forums/includes/admin.php:204
+msgid "Ranks"
+msgstr ""
+
+#: includes/community/includes/admin.php:275
+msgid "BuddyBoss Profile Tab"
+msgstr ""
+
+#: includes/community/includes/admin.php:281
+msgid "Enable Profile Points Tab"
+msgstr ""
+
+#: includes/community/includes/admin.php:282
+msgid "Check this option to show the user points on a profile tab."
+msgstr ""
+
+#: includes/community/includes/admin.php:287
+#: includes/community/includes/admin.php:315
+#: includes/community/includes/admin.php:390
+msgid "Tab Title"
+msgstr ""
+
+#: includes/community/includes/admin.php:288
+#: includes/community/includes/admin.php:316
+#: includes/community/includes/admin.php:391
+msgid "Text to show on the BuddyBoss user profile."
+msgstr ""
+
+#: includes/community/includes/admin.php:293
+#: includes/community/includes/admin.php:321
+#: includes/community/includes/admin.php:396
+msgid "Tab Slug (Optional)"
+msgstr ""
+
+#: includes/community/includes/admin.php:294
+#: includes/community/includes/admin.php:322
+#: includes/community/includes/admin.php:397
+msgid "URL slug to use on the profile tab. Leave blank and slug will be a URL version of the tab title (eg: \"My Tab Title\" will have a slug like \"my-tab-title\")."
+msgstr ""
+
+#: includes/community/includes/admin.php:295
+#: includes/community/includes/admin.php:323
+#: includes/community/includes/admin.php:398
+msgid "<strong>Important:</strong> If you set a tab title with special characters then provide a slug with URL friendly characters."
+msgstr ""
+
+#: includes/community/includes/admin.php:300
+msgid "Choose the points types you want to show on BuddyBoss user profile."
+msgstr ""
+
+#: includes/community/includes/admin.php:301
+#: includes/community/includes/admin.php:329
+#: includes/community/includes/admin.php:404
+msgid "<strong>Note:</strong> You can drag and drop this options to reorder them. The order you set will affect to the order they will get displayed on the profile."
+msgstr ""
+
+#: includes/community/includes/admin.php:309
+msgid "Enable Profile Achievements Tab"
+msgstr ""
+
+#: includes/community/includes/admin.php:310
+msgid "Check this option to show the user achievements on a profile tab."
+msgstr ""
+
+#: includes/community/includes/admin.php:327
+msgid "Achievement Types"
+msgstr ""
+
+#: includes/community/includes/admin.php:328
+msgid "Choose the achievement types you want to show on BuddyBoss user profile achievements tab."
+msgstr ""
+
+#: includes/community/includes/admin.php:334
+msgid "Achievements Tab Display Options"
+msgstr ""
+
+#: includes/community/includes/admin.php:335
+msgid "Setup how achievements should look on the BuddyBoss user profile tab."
+msgstr ""
+
+#: includes/community/includes/admin.php:339
+#: includes/community/includes/admin.php:414
+msgid "Columns"
+msgstr ""
+
+#: includes/community/includes/admin.php:340
+msgid "Columns to divide achievements."
+msgstr ""
+
+#: includes/community/includes/admin.php:343
+#: includes/community/includes/admin.php:418
+msgid "1 Column"
+msgstr ""
+
+#: includes/community/includes/admin.php:344
+#: includes/community/includes/admin.php:419
+msgid "2 Columns"
+msgstr ""
+
+#: includes/community/includes/admin.php:345
+#: includes/community/includes/admin.php:420
+msgid "3 Columns"
+msgstr ""
+
+#: includes/community/includes/admin.php:346
+#: includes/community/includes/admin.php:421
+msgid "4 Columns"
+msgstr ""
+
+#: includes/community/includes/admin.php:347
+#: includes/community/includes/admin.php:422
+msgid "5 Columns"
+msgstr ""
+
+#: includes/community/includes/admin.php:348
+#: includes/community/includes/admin.php:423
+msgid "6 Columns"
+msgstr ""
+
+#: includes/community/includes/admin.php:359
+#: includes/community/includes/admin.php:428
+msgid "Order By"
+msgstr ""
+
+#: includes/community/includes/admin.php:360
+#: includes/community/includes/admin.php:429
+msgid "Parameter to use for sorting."
+msgstr ""
+
+#: includes/community/includes/admin.php:363
+msgid "Menu Order"
+msgstr ""
+
+#: includes/community/includes/admin.php:364
+msgid "Achievement ID"
+msgstr ""
+
+#: includes/community/includes/admin.php:365
+msgid "Achievement Title"
+msgstr ""
+
+#: includes/community/includes/admin.php:366
+#: includes/community/includes/admin.php:435
+msgid "Published Date"
+msgstr ""
+
+#: includes/community/includes/admin.php:367
+#: includes/community/includes/admin.php:436
+msgid "Last Modified Date"
+msgstr ""
+
+#: includes/community/includes/admin.php:368
+msgid "Achievement Author"
+msgstr ""
+
+#: includes/community/includes/admin.php:369
+#: includes/community/includes/admin.php:437
+msgid "Random"
+msgstr ""
+
+#: includes/community/includes/admin.php:374
+#: includes/community/includes/admin.php:442
+msgid "Order"
+msgstr ""
+
+#: includes/community/includes/admin.php:375
+#: includes/community/includes/admin.php:443
+msgid "Sort order."
+msgstr ""
+
+#: includes/community/includes/admin.php:377
+#: includes/community/includes/admin.php:445
+msgid "Ascending"
+msgstr ""
+
+#: includes/community/includes/admin.php:377
+#: includes/community/includes/admin.php:445
+msgid "Descending"
+msgstr ""
+
+#: includes/community/includes/admin.php:384
+msgid "Enable Profile Ranks Tab"
+msgstr ""
+
+#: includes/community/includes/admin.php:385
+msgid "Check this option to show the user ranks on a profile tab."
+msgstr ""
+
+#: includes/community/includes/admin.php:403
+msgid "Choose the rank types you want to show on BuddyBoss user profile ranks tab."
+msgstr ""
+
+#: includes/community/includes/admin.php:409
+msgid "Ranks Tab Display Options"
+msgstr ""
+
+#: includes/community/includes/admin.php:410
+msgid "Setup how ranks should look on the BuddyBoss user profile tab."
+msgstr ""
+
+#: includes/community/includes/admin.php:415
+msgid "Columns to divide ranks."
+msgstr ""
+
+#: includes/community/includes/admin.php:432
+msgid "Priority"
+msgstr ""
+
+#: includes/community/includes/admin.php:433
+msgid "Rank ID"
+msgstr ""
+
+#: includes/community/includes/admin.php:434
+msgid "Rank Title"
+msgstr ""
+
+#: includes/community/includes/admin.php:513
+msgid "BuddyBoss Block Users"
+msgstr ""
+
+#: includes/community/includes/admin.php:516
+msgid "Blocked Profile Types"
+msgstr ""
+
+#: includes/community/includes/admin.php:517
+msgid "Block users earnings by profile type. Users with those profile types will not be able to earn any GamiPress element."
+msgstr ""
+
+#: includes/community/includes/admin.php:519
+#, php-format
+msgid "<strong>Note:</strong> To block users by role or block specific users, check the <a href=\"%s\" target=\"_blank\">GamiPress - Block Users</a> add-on."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:24
+msgid "Recount activated accounts"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:29
+#: includes/community/includes/triggers.php:37
+msgid "BuddyBoss Friendships"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:30
+msgid "Recount friendships"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:36
+#: includes/community/includes/triggers.php:48
+msgid "BuddyBoss Messages"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:37
+msgid "Recount messages sent/replied"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:43
+#: includes/community/includes/triggers.php:55
+msgid "BuddyBoss Activity"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:44
+msgid "Recount activity stream messages"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:45
+msgid "Recount activity replies"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:46
+msgid "Recount activity favorites"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:52
+#: includes/community/includes/triggers.php:68
+msgid "BuddyBoss Groups"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:53
+msgid "Recount groups activity stream messages"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:54
+msgid "Recount groups joins"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:55
+msgid "Recount groups promotions to moderator/administrator"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:89
+#: includes/community/includes/admin/recount-activity.php:406
+#: includes/forums/includes/admin/recount-activity.php:152
+#: includes/forums/includes/admin/recount-activity.php:153
+#, php-format
+msgid "%d users found, recounting..."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:114
+#: includes/community/includes/admin/recount-activity.php:432
+#: includes/forums/includes/admin/recount-activity.php:183
+#, php-format
+msgid "%d remaining users to finish recount"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:137
+msgid "BuddyBoss Friends module is not active."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:156
+#, php-format
+msgid "%d friendships found, recounting..."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:177
+#, php-format
+msgid "%d remaining friendships to finish recount"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:200
+msgid "BuddyBoss Messages module is not active."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:219
+#, php-format
+msgid "%d messages found, recounting..."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:240
+#, php-format
+msgid "%d remaining messages to finish recount"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:263
+#: includes/community/includes/admin/recount-activity.php:326
+#: includes/community/includes/admin/recount-activity.php:389
+msgid "BuddyBoss Activity module is not active."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:282
+#: includes/community/includes/admin/recount-activity.php:345
+#, php-format
+msgid "%d activities found, recounting..."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:303
+#: includes/community/includes/admin/recount-activity.php:366
+#, php-format
+msgid "%d remaining activities to finish recount"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:455
+#: includes/community/includes/admin/recount-activity.php:525
+#: includes/community/includes/admin/recount-activity.php:595
+msgid "BuddyBoss Groups module is not active."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:474
+#: includes/community/includes/admin/recount-activity.php:544
+#, php-format
+msgid "%d groups found, recounting..."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:502
+#: includes/community/includes/admin/recount-activity.php:572
+#, php-format
+msgid "%d remaining groups to finish recount"
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:614
+#, php-format
+msgid "%d group members found, recounting..."
+msgstr ""
+
+#: includes/community/includes/admin/recount-activity.php:636
+#, php-format
+msgid "%d remaining group members to finish recount"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:27
+#: includes/community/includes/bp-activity.php:48
+#: includes/community/includes/bp-activity.php:69
+msgid "BuddyBoss Member Activity"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:31
+msgid "Awards activity entries"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:32
+msgid "Create an activity entry on user's profile when they get awarded by points award of this type."
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:37
+msgid "Deducts activity entries"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:38
+msgid "Create an activity entry on user's profile when they get deducted by a points deduct of this type."
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:52
+msgid "Achievement activity entries"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:53
+msgid "Create an activity entry on user's profile when they earn an achievement of this type."
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:58
+msgid "Step activity entries"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:59
+msgid "Create an activity entry on user's profile when they complete a step of an achievement of this type."
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:73
+msgid "Rank activity entries"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:74
+msgid "Create an activity entry on user's profile when they reach a new rank of this type."
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:79
+msgid "Rank requirement activity entries"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:80
+msgid "Create an activity entry on user's profile when they complete a rank requirement of a rank of this type."
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:187
+#, php-format
+msgid "%1$s earned %2$s"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:190
+#, php-format
+msgid "%1$s lost %2$s"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:254
+#, php-format
+msgid "%1$s earned the %2$s %3$s"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:314
+#, php-format
+msgid "%1$s completed the step \"%2$s\" of the %3$s %4$s"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:372
+#, php-format
+msgid "%1$s reached the %2$s %3$s"
+msgstr ""
+
+#: includes/community/includes/bp-activity.php:432
+#, php-format
+msgid "%1$s completed the requirement \"%2$s\" of the %3$s %4$s"
+msgstr ""
+
+#: includes/community/includes/components/gamipress-achievements-bp-component.php:24
+msgid "GamiPress Achievements"
+msgstr ""
+
+#: includes/community/includes/components/gamipress-points-bp-component.php:24
+msgid "GamiPress Points"
+msgstr ""
+
+#: includes/community/includes/components/gamipress-ranks-bp-component.php:24
+msgid "GamiPress Ranks"
+msgstr ""
+
+#: includes/community/includes/triggers.php:28 includes/triggers.php:52
+msgid "BuddyBoss Profile"
+msgstr ""
+
+#: includes/community/includes/triggers.php:29
+msgid "Change profile avatar"
+msgstr ""
+
+#: includes/community/includes/triggers.php:30
+msgid "Change cover image"
+msgstr ""
+
+#: includes/community/includes/triggers.php:31
+msgid "Update profile information"
+msgstr ""
+
+#: includes/community/includes/triggers.php:38
+msgid "Send a friendship request"
+msgstr ""
+
+#: includes/community/includes/triggers.php:39
+msgid "Accept a friendship request"
+msgstr ""
+
+#: includes/community/includes/triggers.php:40
+msgid "Get a friendship request accepted"
+msgstr ""
+
+#: includes/community/includes/triggers.php:41
+msgid "Remove a friendship"
+msgstr ""
+
+#: includes/community/includes/triggers.php:42
+msgid "Get a friendship removed"
+msgstr ""
+
+#: includes/community/includes/triggers.php:49
+msgid "Send/Reply to a private message"
+msgstr ""
+
+#: includes/community/includes/triggers.php:56
+msgid "Publish an activity post"
+msgstr ""
+
+#: includes/community/includes/triggers.php:57
+msgid "Remove an activity post"
+msgstr ""
+
+#: includes/community/includes/triggers.php:58
+msgid "Reply to an item in an activity stream"
+msgstr ""
+
+#: includes/community/includes/triggers.php:59
+msgid "Favorite an activity stream item"
+msgstr ""
+
+#: includes/community/includes/triggers.php:60
+msgid "Remove a favorite on an activity stream item"
+msgstr ""
+
+#: includes/community/includes/triggers.php:61
+msgid "Get a favorite on an activity stream item"
+msgstr ""
+
+#: includes/community/includes/triggers.php:62
+msgid "Get a favorite removed on an activity stream item"
+msgstr ""
+
+#: includes/community/includes/triggers.php:69
+msgid "Publish an activity post in a group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:70
+msgid "Publish an activity post in a specific group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:71
+msgid "Remove an activity post from a group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:72
+msgid "Remove an activity post from a specific group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:73
+msgid "Create a group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:74
+msgid "Join a group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:75
+msgid "Join a specific group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:76
+msgid "Leave a group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:77
+msgid "Leave a specific group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:78
+msgid "Request to join a private group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:79
+msgid "Request to join a specific private group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:80
+msgid "Get accepted on a private group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:81
+msgid "Get accepted on a specific private group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:82
+msgid "Invite someone to join a group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:83
+msgid "Invite someone to join a specific group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:84
+msgid "Get promoted as moderator/administrator of a group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:85
+msgid "Get promoted as moderator/administrator of a specific group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:86
+msgid "Promote another member to moderator/administrator of a group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:87
+msgid "Promote another member to moderator/administrator of a specific group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:122
+#, php-format
+msgid "Get assigned to the %s type"
+msgstr ""
+
+#: includes/community/includes/triggers.php:166
+#, php-format
+msgid "Publish an activity post on %s group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:167
+#, php-format
+msgid "Remove an activity post from %s group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:168
+#, php-format
+msgid "Join %s group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:169
+#, php-format
+msgid "Leave %s group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:170
+#, php-format
+msgid "Request to join %s group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:171
+#, php-format
+msgid "Get accepted on %s group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:172
+#, php-format
+msgid "Invite someone to join %s group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:173
+#, php-format
+msgid "Get promoted as moderator/administrator of %s group"
+msgstr ""
+
+#: includes/community/includes/triggers.php:174
+#, php-format
+msgid "Promote another member to moderator/administrator of %s group"
+msgstr ""
+
+#: includes/forums/includes/admin.php:45
+#: includes/forums/includes/admin/recount-activity.php:22
+#: includes/forums/includes/triggers.php:20
+msgid "BuddyBoss Forums"
+msgstr ""
+
+#: includes/forums/includes/admin.php:51
+msgid "User Points Types"
+msgstr ""
+
+#: includes/forums/includes/admin.php:52
+msgid "Choose the points types you want to show on user reply details."
+msgstr ""
+
+#: includes/forums/includes/admin.php:53 includes/forums/includes/admin.php:86
+#: includes/forums/includes/admin.php:136
+msgid "<strong>Note:</strong> You can drag and drop this options to reorder them. The order you set will affect to the order they will get displayed on the reply details."
+msgstr ""
+
+#: includes/forums/includes/admin.php:58 includes/forums/includes/admin.php:91
+#: includes/forums/includes/admin.php:141
+msgid "Display Options"
+msgstr ""
+
+#: includes/forums/includes/admin.php:59
+msgid "Setup how points types should look on user reply details."
+msgstr ""
+
+#: includes/forums/includes/admin.php:85
+msgid "Choose the achievement types you want to show on user reply details."
+msgstr ""
+
+#: includes/forums/includes/admin.php:92
+msgid "Setup how achievements should look on user reply details."
+msgstr ""
+
+#: includes/forums/includes/admin.php:126
+msgid "Number of achievements to show"
+msgstr ""
+
+#: includes/forums/includes/admin.php:127
+msgid "Setup the number of achievements to show. Leave blank if you want to show all user earned achievement"
+msgstr ""
+
+#: includes/forums/includes/admin.php:134
+msgid "User Profile Rank Types"
+msgstr ""
+
+#: includes/forums/includes/admin.php:135
+msgid "Choose the rank types you want to show on user reply details."
+msgstr ""
+
+#: includes/forums/includes/admin.php:142
+msgid "Setup how ranks should look on user reply details."
+msgstr ""
+
+#: includes/forums/includes/admin.php:147
+msgid "Show the rank featured image."
+msgstr ""
+
+#: includes/forums/includes/admin.php:159
+msgid "Show the ranks title."
+msgstr ""
+
+#: includes/forums/includes/admin/recount-activity.php:23
+msgid "Recount forum activities (forums, topics and replies)"
+msgstr ""
+
+#: includes/forums/includes/admin/recount-activity.php:24
+msgid "Recount topics favorites"
+msgstr ""
+
+#: includes/forums/includes/admin/recount-activity.php:60
+#: includes/forums/includes/admin/recount-activity.php:61
+#, php-format
+msgid "%d items found, recounting..."
+msgstr ""
+
+#: includes/forums/includes/admin/recount-activity.php:82
+#, php-format
+msgid "[Create forum] Forum: %s User: %s"
+msgstr ""
+
+#: includes/forums/includes/admin/recount-activity.php:92
+#, php-format
+msgid "[Create topic] Topic: %s Forum: %s User: %s"
+msgstr ""
+
+#: includes/forums/includes/admin/recount-activity.php:106
+#, php-format
+msgid "[Create reply] Reply: %s Topic: %s Forum: %s User: %s"
+msgstr ""
+
+#: includes/forums/includes/admin/recount-activity.php:124
+#, php-format
+msgid "%d remaining items to finish recount"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:21
+msgid "Create a new forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:23
+msgid "Create a new topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:24
+msgid "Create a new topic on a specific forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:26
+msgid "Reply to a topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:27
+msgid "Reply to a specific topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:28
+msgid "Reply to any topic of a specific forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:30
+msgid "Get a reply in a topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:31
+msgid "Get a reply in a specific topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:32
+msgid "Get a reply in any topic of a specific forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:34
+msgid "Favorite a topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:35
+msgid "Favorite a specific topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:36
+msgid "Favorite any topic on a specific forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:37
+msgid "Get a new favorite on a topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:39
+msgid "Unfavorite a topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:40
+msgid "Unfavorite a specific topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:41
+msgid "Unfavorite any topic on a specific forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:42
+msgid "Lose a favorite on a topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:44
+msgid "Delete a forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:45
+msgid "Delete a topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:46
+msgid "Delete a reply"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:92
+#, php-format
+msgid "Create a topic on %s forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:93
+#, php-format
+msgid "Reply to %s topic"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:94
+#, php-format
+msgid "Reply to any topic on %s forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:95
+#, php-format
+msgid "Get a reply in %s"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:96
+#, php-format
+msgid "Get a reply in any topic on %s forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:97
+#, php-format
+msgid "Favorite %s"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:98
+#, php-format
+msgid "Favorite any topic on %s forum"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:99
+#, php-format
+msgid "Unfavorite %s"
+msgstr ""
+
+#: includes/forums/includes/triggers.php:100
+#, php-format
+msgid "Unfavorite any topic on %s forum"
+msgstr ""
+
+#: includes/requirements.php:45
+msgid "percentage required"
+msgstr ""
+
+#: includes/triggers.php:23
+msgid "Activated account"
+msgstr ""
+
+#: includes/triggers.php:24
+msgid "Get assigned to a specific profile type"
+msgstr ""
+
+#: includes/triggers.php:29
+msgid "BuddyBoss Follow"
+msgstr ""
+
+#: includes/triggers.php:30
+msgid "Start following someone"
+msgstr ""
+
+#: includes/triggers.php:31
+msgid "Stop following someone"
+msgstr ""
+
+#: includes/triggers.php:32
+msgid "Get a follower"
+msgstr ""
+
+#: includes/triggers.php:33
+msgid "Lose a follower"
+msgstr ""
+
+#: includes/triggers.php:39
+msgid "BuddyBoss Email Invites"
+msgstr ""
+
+#: includes/triggers.php:40
+msgid "Send an email invitation"
+msgstr ""
+
+#: includes/triggers.php:41
+msgid "Register from email invitation"
+msgstr ""
+
+#: includes/triggers.php:42
+msgid "Get an invited user registered"
+msgstr ""
+
+#: includes/triggers.php:43
+msgid "Account from email invitation gets activated"
+msgstr ""
+
+#: includes/triggers.php:44
+msgid "Get an invited user account activated"
+msgstr ""
+
+#: includes/triggers.php:52
+msgid "Complete a minimum percent of your profile"
+msgstr ""
+
+#: includes/triggers.php:78
+#, php-format
+msgid "Complete the %s of your profile"
+msgstr ""

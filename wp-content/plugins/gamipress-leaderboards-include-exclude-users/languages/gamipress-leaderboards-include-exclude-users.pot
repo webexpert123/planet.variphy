@@ -1,0 +1,82 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress Leaderboards Include/Exclude Users\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2020-06-17 20:34+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: gamipress-leaderboards-include-exclude-users.php:139
+#, php-format
+msgid "GamiPress - Leaderboards Include/Exclude Users requires %s and %s in order to work. Please install and activate them."
+msgstr ""
+
+#: includes/admin.php:22
+msgid "GamiPress - Block Users"
+msgstr ""
+
+#: includes/admin.php:41
+msgid "Include/Exclude Users"
+msgstr ""
+
+#: includes/admin.php:45
+msgid "Include"
+msgstr ""
+
+#: includes/admin.php:46
+msgid "Limit leaderboard to a specific group of users only."
+msgstr ""
+
+#: includes/admin.php:51
+msgid "Included Roles"
+msgstr ""
+
+#: includes/admin.php:52
+msgid "Limit leaderboard to users with this role."
+msgstr ""
+
+#: includes/admin.php:58
+msgid "Included Users"
+msgstr ""
+
+#: includes/admin.php:59
+msgid "Limit leaderboard to users on this."
+msgstr ""
+
+#: includes/admin.php:65
+msgid "Exclude"
+msgstr ""
+
+#: includes/admin.php:66
+msgid "Exclude a specific group of users to appear on this leaderboard."
+msgstr ""
+
+#: includes/admin.php:71
+msgid "Excluded Roles"
+msgstr ""
+
+#: includes/admin.php:72
+msgid "Users with this roles won't appear on the leaderboard."
+msgstr ""
+
+#: includes/admin.php:78
+msgid "Excluded Users"
+msgstr ""
+
+#: includes/admin.php:79
+msgid "Users on this list won't appear on the leaderboard."
+msgstr ""

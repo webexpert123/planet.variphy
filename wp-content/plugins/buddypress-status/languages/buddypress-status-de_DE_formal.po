@@ -1,0 +1,962 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Status v1.4.0\n"
+"POT-Creation-Date: 2020-09-15 09:36+0200\n"
+"PO-Revision-Date: 2020-09-15 09:36+0200\n"
+"Last-Translator: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language-Team: Thorsten Wollenhöfer <thorsten.wollenhoefer@gmail.com>\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: buddypress-status.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-buddypress-status-admin.php:116
+msgid "WB Plugins"
+msgstr "WB-Plugins"
+
+#: admin/class-buddypress-status-admin.php:117
+#: admin/class-buddypress-status-admin.php:137
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/class-buddypress-status-admin.php:119
+msgid "BuddyPress Status Setting Page"
+msgstr "BuddyPress Statuseinstellungsseite"
+
+#: admin/class-buddypress-status-admin.php:119
+msgid "BuddyPress Status"
+msgstr "BuddyPress Status"
+
+#: admin/class-buddypress-status-admin.php:130
+msgid "BuddyPress Status Settings"
+msgstr "BuddyPress-Statuseinstellungen"
+
+#: admin/class-buddypress-status-admin.php:138
+msgid "Status Icon"
+msgstr "Statussymbol"
+
+#: admin/inc/bpsts-setting-general-tab.php:22
+msgid "Enable status icon in activity loop"
+msgstr "Statussymbol in Aktivitätsschleife aktivieren"
+
+#: admin/inc/bpsts-setting-general-tab.php:29
+msgid "This setting enables the status icon beside username in activity loop."
+msgstr ""
+"Diese Einstellung aktiviert das Statussymbol neben dem Benutzernamen in der "
+"Aktivitätsschleife."
+
+#: admin/inc/bpsts-setting-general-tab.php:34
+msgid "Enable status icon at user profile page"
+msgstr "Statussymbol auf der Benutzerprofilseite aktivieren"
+
+#: admin/inc/bpsts-setting-general-tab.php:41
+msgid ""
+"This setting enables the status icon beside username in at user profile "
+"page(header section)."
+msgstr ""
+"Diese Einstellung aktiviert das Statussymbol neben dem Benutzernamen auf der "
+"Benutzerprofilseite (Kopfbereich)."
+
+#: admin/inc/bpsts-setting-general-tab.php:46
+msgid "Enable reaction icon in bp activity actions"
+msgstr "Reaktionssymbol in BuddyPress-Aktivitätsaktionen aktivieren"
+
+#: admin/inc/bpsts-setting-general-tab.php:53
+msgid "This setting enables the reaction icon in buddypress activity actions."
+msgstr ""
+"Diese Einstellung aktiviert das Reaktionssymbol in Buddypress-"
+"Aktivitätsaktionen."
+
+#: admin/inc/bpsts-setting-status-icon-tab.php:56
+msgid "Select icons set to be available"
+msgstr "Wählen Sie die Symbole aus, die verfügbar sein sollen"
+
+#: admin/inc/bpsts-setting-status-icon-tab.php:56
+msgid "( User selected icon will appear beside username at profile page. )"
+msgstr ""
+"(Das vom Benutzer ausgewählte Symbol wird neben dem Benutzernamen auf der "
+"Profilseite angezeigt.)"
+
+#: admin/inc/bpsts-setting-status-icon-tab.php:103
+msgid "Activity reaction icons"
+msgstr "Aktivitätsreaktionssymbole"
+
+#: admin/inc/bpsts-setting-status-icon-tab.php:103
+msgid ""
+"( Selected icon will be available to give reaction on activity updates. Drag "
+"and drop here from above icon sets. )"
+msgstr ""
+"(Das ausgewählte Symbol ist verfügbar, um auf Aktivitätsaktualisierungen zu "
+"reagieren. Hierher von den obigen Symbolsätzen ziehen und ablegen.)"
+
+#: admin/wbcom/templates/wbcom-license-page.php:3
+msgid "Plugin License Settings"
+msgstr "Plugin-Lizenzeinstellungen"
+
+#: admin/wbcom/templates/wbcom-license-page.php:8
+#: admin/wbcom/templates/wbcom-license-page.php:21
+#: edd-license/edd-plugin-license.php:329
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/wbcom/templates/wbcom-license-page.php:9
+#: admin/wbcom/templates/wbcom-license-page.php:22
+#: edd-license/edd-plugin-license.php:330
+msgid "Version"
+msgstr "Version"
+
+#: admin/wbcom/templates/wbcom-license-page.php:10
+#: admin/wbcom/templates/wbcom-license-page.php:23
+#: edd-license/edd-plugin-license.php:331
+msgid "Key"
+msgstr "Schlüssel"
+
+#: admin/wbcom/templates/wbcom-license-page.php:11
+#: admin/wbcom/templates/wbcom-license-page.php:24
+#: edd-license/edd-plugin-license.php:332 public/inc/bpsts-add-status.php:34
+#: public/inc/bpsts-add-status.php:56
+msgid "Status"
+msgstr "Status"
+
+#: admin/wbcom/templates/wbcom-license-page.php:12
+#: admin/wbcom/templates/wbcom-license-page.php:25
+#: edd-license/edd-plugin-license.php:333
+msgid "Action"
+msgstr "Aktion"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:8
+msgid "Free Addons"
+msgstr "Kostenlose Addons"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:14
+msgid "Install"
+msgstr "Installieren"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:18
+#: admin/wbcom/wbcom-admin-settings.php:487
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:22
+#: admin/wbcom/wbcom-admin-settings.php:488
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:50
+msgid "Paid Addons"
+msgstr "Bezahlte Addons"
+
+#: admin/wbcom/templates/wbcom-plugins-page.php:67
+msgid "View"
+msgstr "Ansehen"
+
+#: admin/wbcom/templates/wbcom-support-page.php:3
+#: admin/wbcom/wbcom-admin-settings.php:542
+#: admin/wbcom/wbcom-admin-settings.php:627
+msgid "Support"
+msgstr "Support"
+
+#: admin/wbcom/templates/wbcom-support-page.php:5
+msgid "Having any question or issue ?"
+msgstr "Haben Sie eine Frage oder ein Problem?"
+
+#: admin/wbcom/templates/wbcom-support-page.php:7
+msgid ""
+"Our team is here to help you out at anytime. If you have any idea about how "
+"we could improve. You can share access to your site on our helpdesk if it "
+"can help getting faster. There are two ways to in touch with us :"
+msgstr ""
+"Unser Team ist jederzeit für Sie da. Wenn Sie eine Idee haben, wie wir uns "
+"verbessern können, dann können Sie den Zugriff auf Ihre Website über unseren "
+"Helpdesk freigeben, wenn dies zu einer schnelleren Entwicklung beiträgt. Es "
+"gibt zwei Möglichkeiten, mit uns in Kontakt zu treten:"
+
+#: admin/wbcom/templates/wbcom-support-page.php:19
+msgid "Tickets Support"
+msgstr "Support Tickets"
+
+#: admin/wbcom/templates/wbcom-support-page.php:20
+msgid ""
+"Open a ticket on our helpdesk, we don't guarantee a fast response but within "
+"a week. Except if you've purchased one of our product we'll reply within 24 "
+"hours."
+msgstr ""
+"Das Öffnen eines Tickets in unserem Helpdesk garantiert eine Antwort "
+"innerhalb einer Woche und innerhalb 24 Stunden, wenn Sie eines unserer "
+"Produkte gekauft haben."
+
+#: admin/wbcom/templates/wbcom-support-page.php:24
+msgid "Open a ticket"
+msgstr "Ein Ticket öffnen"
+
+#: admin/wbcom/templates/wbcom-support-page.php:39
+#: admin/wbcom/templates/wbcom-support-page.php:44
+msgid "Contact Us"
+msgstr "Kontaktieren Sie uns"
+
+#: admin/wbcom/templates/wbcom-support-page.php:40
+msgid ""
+"Create a new thread on our plugin page, participation is open to anyone from "
+"all around the world. We'll be there to help as well but can't guarantee any "
+"delay."
+msgstr ""
+"Erstellen Sie einen neuen Thread auf unserer Plugin-Seite. Die Teilnahme "
+"steht allen auf der Welt offen. Wir helfen gerne, doch sind Verzögerungen "
+"nicht auszuschließen."
+
+#: admin/wbcom/templates/wbcom-themes-page.php:4
+msgid "Reign BuddyPress"
+msgstr "Reign BuddyPress"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:12
+msgid "REIGN Community"
+msgstr "REIGN Community"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:14
+msgid "Multiple Member Directory Layout"
+msgstr "Layout für mehrere Mitgliederverzeichnisse"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:15
+msgid "Multiple Member Header Layout"
+msgstr "Header-Layout für mehrere Mitglieder"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:16
+msgid "Multiple Group Directory Layout"
+msgstr "Layout für mehrere Gruppenverzeichnisse"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:17
+msgid "Multiple Group Header Layout"
+msgstr "Layout für mehrere Gruppen-Header"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:18
+msgid "BuddyPress Customization Options"
+msgstr "BuddyPress Individualisierungsoptionen"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:19
+msgid "BuddyPress Extra Widgets"
+msgstr "BuddyPress Extra Widgets"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:20
+msgid "Inbuilt Social Profile Module"
+msgstr "Integriertes Soziales-Profil-Modul"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:23
+#: admin/wbcom/templates/wbcom-themes-page.php:49
+#: admin/wbcom/templates/wbcom-themes-page.php:73
+#: admin/wbcom/templates/wbcom-themes-page.php:96
+msgid "Purchase"
+msgstr "Kaufen"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:24
+#: admin/wbcom/templates/wbcom-themes-page.php:50
+#: admin/wbcom/templates/wbcom-themes-page.php:74
+#: admin/wbcom/templates/wbcom-themes-page.php:97
+msgid "Preview"
+msgstr "Vorschau"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:30
+msgid "LearnMate"
+msgstr "LearnMate"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:38
+msgid "Learnmate"
+msgstr "Learnmate"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:40
+msgid "Add Review to your course"
+msgstr "Bewertung zu Ihrem Kurs hinzufügen"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:41
+msgid "Course Coming Soon"
+msgstr "Kurs in Kürze"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:42
+#: admin/wbcom/templates/wbcom-themes-page.php:69
+msgid "Grid And List Layout"
+msgstr "Raster- und Listenlayout"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:43
+msgid "Learndash/LifterLMS Extra Widgets"
+msgstr "Learndash / LifterLMS Extra Widgets"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:44
+msgid "Unparalleled Course Layout"
+msgstr "Einmaliges Kurslayout"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:45
+msgid "Awesome Learndash/LifterLMS Pages"
+msgstr "Fantastische Learndash / LifterLMS-Seiten"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:46
+msgid "Distraction Free Reading"
+msgstr "Ablenkungsfreies Lesen"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:56
+msgid "StoreMate"
+msgstr "StoreMate"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:64
+msgid "ShopMate Dokan"
+msgstr "ShopMate Dokan"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:66
+msgid "Dokan Extra Widgets"
+msgstr "Dokan Extra Widgets"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:67
+msgid "Unique Single Product Page Customization"
+msgstr "Einzigartige Anpassung einzelner Produktseiten"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:68
+msgid "Awesome WooCommerce Pages"
+msgstr "Fantastische WooCommerce-Seiten"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:70
+msgid "Automated Mega Menu Support"
+msgstr "Automatisierte Mega-Menüunterstützung"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:80
+msgid "Jobmate"
+msgstr "Jobmate"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:88
+msgid "Jobmate Theme"
+msgstr "Jobmate Theme"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:90
+msgid "Simple live searching and filtering"
+msgstr "Einfaches Live-Suchen und Filtern"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:91
+msgid "Unique Job listing Page"
+msgstr "Einzigartige Jobangebotsseite"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:92
+msgid "Awesome Resume list Page"
+msgstr "Fantastische Bewerberangebotsseite"
+
+#: admin/wbcom/templates/wbcom-themes-page.php:93
+msgid "Outstanding all job maanger pagesLayout"
+msgstr "Hervorragend auf allen Job-Manager-Layout-Seiten"
+
+#: admin/wbcom/wbcom-admin-settings.php:178
+msgid "Custom Font Uploader"
+msgstr "Benutzerdefinierter Schriftarten-Uploader"
+
+#: admin/wbcom/wbcom-admin-settings.php:180
+msgid ""
+"It also allows you to upload your own custom font to your site and use them "
+"using custom css."
+msgstr ""
+"Außerdem können Sie Ihre eigene Schriftart auf Ihre Website hochladen und "
+"sie mit benutzerdefiniertem CSS verwenden."
+
+#: admin/wbcom/wbcom-admin-settings.php:186
+msgid "BuddyPress Activity Filter"
+msgstr "BuddyPress-Aktivitätsfilter"
+
+#: admin/wbcom/wbcom-admin-settings.php:188
+msgid ""
+"Admin can set default and customised activities to be listed on front-end."
+msgstr ""
+"Der Administrator kann festlegen, dass standardmäßige und benutzerdefinierte "
+"Aktivitäten im Front-End gelistet werden."
+
+#: admin/wbcom/wbcom-admin-settings.php:194
+msgid "BuddyPress Activity Social Share"
+msgstr "BuddyPress Activity Social Share"
+
+#: admin/wbcom/wbcom-admin-settings.php:196
+msgid ""
+"This plugin allows anyone easily share BuddyPress Activites on major social "
+"media (Facebook, Twitter, Google+, Linkedin )."
+msgstr ""
+"Mit diesem Plugin kann jeder BuddyPress-Aktivitäten problemlos in wichtigen "
+"sozialen Medien (Facebook, Twitter, Google+, Linkedin) teilen."
+
+#: admin/wbcom/wbcom-admin-settings.php:202
+msgid "BuddyPress Create Group Type"
+msgstr "BuddyPress Gruppentyp erstellen"
+
+#: admin/wbcom/wbcom-admin-settings.php:204
+msgid "It will help to create group type for BuddyPress Groups."
+msgstr ""
+"Es ist hilfreich, einen Gruppentyp für BuddyPress-Gruppen zu erstellen."
+
+#: admin/wbcom/wbcom-admin-settings.php:210
+msgid "BuddyPress Member Reviews"
+msgstr "BuddyPress Mitgliederbewertungen"
+
+#: admin/wbcom/wbcom-admin-settings.php:212
+msgid ""
+"This plugin allows only site members to add reviews to the buddypress "
+"members on the site and even rate the member’s profile out of 5 points with "
+"multiple review criteria."
+msgstr ""
+"Mit diesem Plugin können nur Website-Mitglieder den BuddyPress-Mitgliedern "
+"auf der Website Bewertungen hinzufügen und sogar das Profil des Mitglieds "
+"mit mehreren Bewertungskriterien bis zu 5 Punkten bewerten."
+
+#: admin/wbcom/wbcom-admin-settings.php:218
+msgid "BuddyPress Group Reviews"
+msgstr "BuddyPress Gruppenbewertungen"
+
+#: admin/wbcom/wbcom-admin-settings.php:220
+msgid ""
+"This plugin allows the BuddyPress Members to give reviews to the BuddyPress "
+"groups on the site. The review form allows the users to give text review, "
+"even rate the group on the basis of multiple criterias."
+msgstr ""
+"Mit diesem Plugin können BuddyPress-Mitglieder Bewertungen über BuddyPress-"
+"Gruppen einer Website vornehmen. Über das Bewertungsformular können Benutzer "
+"Textüberprüfungen durchführen und die Gruppe sogar anhand mehrerer Kriterien "
+"bewerten."
+
+#: admin/wbcom/wbcom-admin-settings.php:226
+msgid "BuddyPress Favorite Notification"
+msgstr "BuddyPress Favoritenbenachrichtigung"
+
+#: admin/wbcom/wbcom-admin-settings.php:228
+msgid ""
+"BuddyPress Favorite Notification adds a notification for BuddyPress activity."
+msgstr ""
+"BuddyPress Favorite Notification fügt eine Benachrichtigung für BuddyPress-"
+"Aktivitäten hinzu."
+
+#: admin/wbcom/wbcom-admin-settings.php:234
+msgid "Custom Email Options"
+msgstr "Benutzerdefinierte E-Mail-Optionen"
+
+#: admin/wbcom/wbcom-admin-settings.php:236
+msgid "Override default email options of Worpdress."
+msgstr "Überschreiben Sie die Standard-E-Mail-Optionen in Worpdress."
+
+#: admin/wbcom/wbcom-admin-settings.php:242
+msgid "BuddyPress Checkins"
+msgstr "BuddyPress Checkins"
+
+#: admin/wbcom/wbcom-admin-settings.php:244
+msgid ""
+"This plugin allows BuddyPress members to share their location when they are "
+"posting activities, you can add places where you visited, nearby locations "
+"based on google places."
+msgstr ""
+"Mit diesem Plugin können BuddyPress-Mitglieder ihren Standort teilen, wenn "
+"sie Aktivitäten veröffentlichen. Sie können Orte in der Nähe, die Sie "
+"besucht haben, basierend auf Google Places, hinzufügen."
+
+#: admin/wbcom/wbcom-admin-settings.php:250
+msgid "BuddyPress Job Manager"
+msgstr "BuddyPress Job Manager"
+
+#: admin/wbcom/wbcom-admin-settings.php:252
+msgid ""
+"Incorporates BuddyPress with the WP Job Manager plugin by creating specific "
+"tabs in employer’s and candidate’s profiles."
+msgstr ""
+"Integriert BuddyPress mit dem WP Job Manager-Plugin, indem bestimmte "
+"Registerkarten in den Profilen von Arbeitgebern und Kandidaten erstellt "
+"werden."
+
+#: admin/wbcom/wbcom-admin-settings.php:258
+msgid "BuddyPress user ToDo List"
+msgstr "BuddyPress-Benutzer-ToDo-Liste"
+
+#: admin/wbcom/wbcom-admin-settings.php:260
+msgid ""
+"This plugin allows you to create your personal task list with timestamp. You "
+"can mark them complete when you are done with them. It will also send "
+"reminder when you have any overdue task."
+msgstr ""
+"Mit diesem Plugin können Sie Ihre persönliche Aufgabenliste mit Zeitstempel "
+"erstellen. Sie können sie als vollständig markieren, wenn Sie fertig sind. "
+"Es wird auch eine Erinnerung zugestellt, wenn Sie eine überfällige Aufgabe "
+"haben."
+
+#: admin/wbcom/wbcom-admin-settings.php:266
+msgid "Shortcodes for BuddyPress"
+msgstr "Shortcodes für BuddyPress"
+
+#: admin/wbcom/wbcom-admin-settings.php:268
+msgid ""
+"This plugin will add an extended feature to the big name “BuddyPress” that "
+"will generate Shortcode for Listing Activity Streams , Members and Groups on "
+"any post/page in website."
+msgstr ""
+"Dieses Plugin fügt dem großartigen \"BuddyPress\" eine erweiterte Funktion "
+"hinzu, die einen Shortcode zum Auflisten von Aktivitätsströmen, Mitgliedern "
+"und Gruppen auf allen Posts / Seiten auf der Website generiert."
+
+#: admin/wbcom/wbcom-admin-settings.php:274
+msgid "Woo Open Graph"
+msgstr "Woo Open Graph"
+
+#: admin/wbcom/wbcom-admin-settings.php:276
+msgid ""
+"This plugin will add an extended feature to the big name “WooCommerce” that "
+"will adds well executed and accurate Open Graph Meta Tags to your site with "
+"title,description and WooCommerce featured image."
+msgstr ""
+"Dieses Plugin fügt dem großartigen \"WooCommerce\" eine erweiterte Funktion "
+"hinzu, die Ihrer Website gut ausgeführte und genaue Open Graph Meta Tags mit "
+"Titel, Beschreibung und WooCommerce-Bild beigibt."
+
+#: admin/wbcom/wbcom-admin-settings.php:282
+msgid "BuddyPress Lock"
+msgstr "BuddyPress-Sperre"
+
+#: admin/wbcom/wbcom-admin-settings.php:284
+msgid ""
+"This plugin allows the administrator to lock the certain parts of their "
+"site. It help to create private BuddyPress community by locking certain "
+"BuddyPress Components, WordPress Pages, Custom Post Types for public view "
+"without using any membership plugin."
+msgstr ""
+"Mit diesem Plugin kann der Administrator bestimmte Teile seiner Website "
+"sperren. Sie können eine private BuddyPress-Community erstellen, indem Sie "
+"bestimmte BuddyPress-Komponenten, WordPress-Seiten und benutzerdefinierte "
+"Beitragstypen für die öffentliche Ansicht sperren ohne ein Mitgliedschafts-"
+"Plugin verwenden zu müssen."
+
+#: admin/wbcom/wbcom-admin-settings.php:290
+msgid "Woo Audio Preview"
+msgstr "Woo Audio Vorschau"
+
+#: admin/wbcom/wbcom-admin-settings.php:292
+msgid ""
+"This plugin Allows playing the audio files in sample mode to prevent "
+"unauthorized downloading of the audio files. It helps to display sample "
+"files at single product page."
+msgstr ""
+"Dieses Plugin Ermöglicht das Abspielen der Audiodateien im Sample-Modus, um "
+"ein unbefugtes Herunterladen der Audiodateien zu verhindern. Es ist "
+"hilfreich, Beispieldateien auf einer einzelnen Produktseite anzuzeigen."
+
+#: admin/wbcom/wbcom-admin-settings.php:298
+msgid "WordPress System Log"
+msgstr "WordPress-Systemprotokoll"
+
+#: admin/wbcom/wbcom-admin-settings.php:300
+msgid ""
+"This plugin helps administrators of the site see their environment on which "
+"the site is currently running that includes WordPress environment, tha "
+"database it requires, Server Environment and the plugins installed and "
+"activated on the site."
+msgstr ""
+"Dieses Plugin hilft Administratoren der Website dabei, ihre Umgebung zu "
+"erkennen, in der die Website derzeit ausgeführt wird. Dazu gehören die "
+"WordPress-Umgebung, die erforderliche Datenbank, die Serverumgebung und die "
+"auf der Site installierten und aktivierten Plugins."
+
+#: admin/wbcom/wbcom-admin-settings.php:306
+msgid "BP Post From Anywhere"
+msgstr "BP Post von überall"
+
+#: admin/wbcom/wbcom-admin-settings.php:308
+msgid ""
+"This plugin will generate shortcode and widgets for post updates section for "
+"activities so you can post update from anywhere, it might be sidebar, some "
+"page or any template file."
+msgstr ""
+"Dieses Plugin generiert einen Shortcode und Widgets für den Abschnitt zum "
+"Posten von Aktualisierungen für Aktivitäten, sodass Sie Aktualisierungen von "
+"jedem Ort aus posten können. Dies kann eine Seitenleiste, eine Seite oder "
+"eine Vorlagendatei sein."
+
+#: admin/wbcom/wbcom-admin-settings.php:314
+msgid "Woo Document Preview"
+msgstr "Woo-Dokumentvorschau"
+
+#: admin/wbcom/wbcom-admin-settings.php:316
+msgid ""
+"This will allow you to add document preview at single product page. Which "
+"helps to offer more better idea when you are selling ebooks, pdf or some "
+"documents."
+msgstr ""
+"Auf diese Weise können Sie eine Dokumentvorschau auf einer einzelnen "
+"Produktseite hinzufügen. So können Sie beim Verkauf von eBooks, PDFs oder "
+"einigen Dokumenten eine bessere Vorstellung gewinnen."
+
+#: admin/wbcom/wbcom-admin-settings.php:322
+msgid "WordPress Media Category"
+msgstr "WordPress-Medienkategorie"
+
+#: admin/wbcom/wbcom-admin-settings.php:324
+#: admin/wbcom/wbcom-admin-settings.php:340
+msgid ""
+"This plugin helps administrators of the site categorize their wordpress "
+"media."
+msgstr ""
+"Dieses Plugin hilft Administratoren der Website, ihre WordPress-Medien zu "
+"kategorisieren."
+
+#: admin/wbcom/wbcom-admin-settings.php:330
+msgid "Woo Price Quotes"
+msgstr "Woo Preis Angebote"
+
+#: admin/wbcom/wbcom-admin-settings.php:332
+msgid ""
+"This plugin helps in quoting the products that admin wishes to hide its "
+"purchasing details."
+msgstr ""
+"Dieses Plugin hilft bei der Angabe der Produkte, deren Kaufdetails der "
+"Administrator verbergen möchte."
+
+#: admin/wbcom/wbcom-admin-settings.php:338
+msgid "EDD Service Extended"
+msgstr "EDD-Service erweitert"
+
+#: admin/wbcom/wbcom-admin-settings.php:346
+msgid "WB Ads Rotator with Split Test"
+msgstr "WB Ads Rotator mit Split-Prüfung"
+
+#: admin/wbcom/wbcom-admin-settings.php:348
+msgid ""
+"This plugin is designed for the SPLIT TESTING, you can check performance of "
+"your ads layout and on the basis of them you can select one of them for your "
+"regular use."
+msgstr ""
+"Dieses Plugin wurde für die SPLIT-PRÜFUNG entwickelt. Sie können die "
+"Leistung Ihres Anzeigenlayouts überprüfen und eines davon für die "
+"regelmäßige Verwendung auswählen."
+
+#: admin/wbcom/wbcom-admin-settings.php:366
+msgid "BuddyPress Moderation Pro"
+msgstr "BuddyPress Moderation Pro"
+
+#: admin/wbcom/wbcom-admin-settings.php:367
+msgid ""
+"BuddyPress Community Moderation offers a solution for site owners to keep "
+"their communities straight. With community policing strategy, members of the "
+"community have an option for moderation sitewide by attaching flags to "
+"content created within the various components."
+msgstr ""
+"BuddyPress Community Moderation bietet eine Lösung für Website-Besitzer an, "
+"mit der sie ihre Communitys übersichtlich halten können. Mit der Community-"
+"Überwachungsstrategie haben Mitglieder der Community eine Option zur "
+"portalübergreifenden Moderation, indem sie Flags an Inhalte anhängen können, "
+"die innerhalb der verschiedenen Komponenten erstellt wurden."
+
+#: admin/wbcom/wbcom-admin-settings.php:372
+msgid "BuddyPress Polls"
+msgstr "BuddyPress Umfragen"
+
+#: admin/wbcom/wbcom-admin-settings.php:373
+msgid ""
+"Use BuddyPress Polls plugin to create polls inside the activity, let your "
+"user response to your polls. Members can create pools like activities, "
+"easily votes on them."
+msgstr ""
+"Verwenden Sie das BuddyPress-Umfragen-Plugin, um Umfragen innerhalb der "
+"Aktivität zu erstellen. Lassen Sie Ihre Benutzer auf Ihre Umfragen "
+"antworten. Mitglieder können Pools wie Aktivitäten erstellen und einfach "
+"über diese abstimmen."
+
+#: admin/wbcom/wbcom-admin-settings.php:378
+msgid "BuddyPress Resume Manager"
+msgstr "BuddyPress Lebenslauf-Manager"
+
+#: admin/wbcom/wbcom-admin-settings.php:379
+msgid ""
+"BuddyPress Resume Manager adds a separate BuddyPress Resume menu at a user’s "
+"BuddyPress Profile Page to display individual member resume. We have added "
+"predefined fields for the resumes and site admin and enable and disable them."
+msgstr ""
+"BuddyPress Lebenslauf-Manager fügt ein separates BuddyPress Lebenslauf-Menü "
+"auf der BuddyPress-Profilseite eines Benutzers hinzu, um den Lebenslauf "
+"einzelner Mitglieder anzuzeigen. Wir haben vordefinierte Felder für die "
+"Lebensläufe und den Website-Administrator hinzugefügt, zum Aktivieren und "
+"Deaktivieren."
+
+#: admin/wbcom/wbcom-admin-settings.php:384
+msgid "BuddyPress Profanity"
+msgstr "BuddyPress Profanity"
+
+#: admin/wbcom/wbcom-admin-settings.php:385
+msgid ""
+"Use BuddyPress Profanity plugin to censor content in your community! Easily "
+"Censor all the unwanted words in activities, private messages contents by "
+"specifying a list of keywords to be filtered."
+msgstr ""
+"Verwenden Sie das BuddyPress Profanity-Plugin, um Inhalte in Ihrer Community "
+"zu zensieren! Zensieren Sie auf einfache Weise alle unerwünschten Wörter in "
+"Aktivitäten und den Inhalt privater Nachrichten, indem Sie eine Liste der zu "
+"filternden Schlüsselwörter angeben."
+
+#: admin/wbcom/wbcom-admin-settings.php:390
+msgid "BuddyPress Private Community Pro"
+msgstr "BuddyPress Private Community Pro"
+
+#: admin/wbcom/wbcom-admin-settings.php:391
+msgid ""
+"This plugin offers a lockdown for BuddyPress Component and will ask users to "
+"log in go further to check profile or any other protected details."
+msgstr ""
+"Dieses Plugin bietet eine Sperre für BuddyPress-Komponenten und fordert "
+"Benutzer auf, sich anzumelden, um das Profil oder andere geschützte Details "
+"zu überprüfen."
+
+#: admin/wbcom/wbcom-admin-settings.php:396
+msgid "BuddyPress Profile Pro"
+msgstr "BuddyPress Profil Pro"
+
+#: admin/wbcom/wbcom-admin-settings.php:397
+msgid ""
+"This plugin gives you the power to extend BuddyPress Profiles with repeater "
+"fields and groups. You can easily add multiple field groups and display them "
+"at member’s profile."
+msgstr ""
+"Mit diesem Plugin können Sie BuddyPress-Profile mit Repeater-Feldern und -"
+"Gruppen erweitern. Sie können problemlos mehrere Feldgruppen hinzufügen und "
+"diese im Profil des Mitglieds anzeigen."
+
+#: admin/wbcom/wbcom-admin-settings.php:536
+#: admin/wbcom/wbcom-admin-settings.php:615
+msgid "Components"
+msgstr "Komponenten"
+
+#: admin/wbcom/wbcom-admin-settings.php:539
+#: admin/wbcom/wbcom-admin-settings.php:621
+msgid "Themes"
+msgstr "Themes"
+
+#: admin/wbcom/wbcom-admin-settings.php:609 buddypress-status.php:97
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/wbcom/wbcom-paid-plugin-settings.php:29
+#: admin/wbcom/wbcom-paid-plugin-settings.php:43
+msgid "License"
+msgstr "Lizenz"
+
+#: buddypress-status.php:134
+#, php-format
+msgid "%1$s is ineffective as it requires %2$s to be installed and active."
+msgstr "%1$s ist ineffektiv, da %2$s installiert und aktiv sein muss."
+
+#: edd-license/EDD_BPSTS_Plugin_Updater.php:206
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sVersion ansehen %3$s Details"
+"%4$s."
+
+#: edd-license/EDD_BPSTS_Plugin_Updater.php:214
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. %2$sVersion ansehen %3$s Details"
+"%4$s oder %5$sjetzt aktualisieren%6$s."
+
+#: edd-license/EDD_BPSTS_Plugin_Updater.php:408
+msgid "You do not have permission to install plugin updates"
+msgstr "Sie haben keine Berechtigung, Plugin-Updates zu installieren"
+
+#: edd-license/EDD_BPSTS_Plugin_Updater.php:408
+msgid "Error"
+msgstr "Fehler"
+
+#: edd-license/edd-plugin-license.php:92 edd-license/edd-plugin-license.php:128
+#: edd-license/edd-plugin-license.php:204
+#: edd-license/edd-plugin-license.php:400
+#: edd-license/edd-plugin-license.php:436
+msgid "An error occurred, please try again."
+msgstr "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut."
+
+#: edd-license/edd-plugin-license.php:101
+#: edd-license/edd-plugin-license.php:409
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Ihr Lizenzschlüssel ist am %s abgelaufen."
+
+#: edd-license/edd-plugin-license.php:107
+#: edd-license/edd-plugin-license.php:415
+msgid "Your license key has been disabled."
+msgstr "Ihr Lizenzschlüssel wurde deaktiviert."
+
+#: edd-license/edd-plugin-license.php:111
+#: edd-license/edd-plugin-license.php:419
+msgid "Invalid license."
+msgstr "Ungültige Lizenz."
+
+#: edd-license/edd-plugin-license.php:116
+#: edd-license/edd-plugin-license.php:424
+msgid "Your license is not active for this URL."
+msgstr "Ihre Lizenz ist für diese URL nicht aktiv."
+
+#: edd-license/edd-plugin-license.php:120
+#: edd-license/edd-plugin-license.php:428
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Dies scheint ein ungültiger Lizenzschlüssel für %s zu sein."
+
+#: edd-license/edd-plugin-license.php:124
+#: edd-license/edd-plugin-license.php:432
+msgid "Your license key has reached its activation limit."
+msgstr "Ihr Lizenzschlüssel hat sein Aktivierungslimit erreicht."
+
+#: edd-license/edd-plugin-license.php:349
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: edd-license/edd-plugin-license.php:353
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: edd-license/edd-plugin-license.php:356
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: includes/buddypress-status-gen-funcions.php:45
+msgid "Mood"
+msgstr "Stimmungslage"
+
+#: includes/buddypress-status-gen-funcions.php:49
+msgid "Activity"
+msgstr "Aktivität"
+
+#: includes/buddypress-status-gen-funcions.php:53
+msgid "Food"
+msgstr "Lebensmittel"
+
+#: includes/buddypress-status-gen-funcions.php:57
+msgid "Diversity"
+msgstr "Verschiedenes"
+
+#: public/class-buddypress-status-public.php:111
+msgid "characters left"
+msgstr "verbleibende Zeichen"
+
+#: public/class-buddypress-status-public.php:113
+msgid "Are you sure you want to delete this status?"
+msgstr "Möchten Sie diesen Status wirklich löschen?"
+
+#: public/class-buddypress-status-public.php:117
+msgid "Are you sure you want to delete this status icon?"
+msgstr "Sind Sie sicher, dass Sie dieses Statussymbol löschen möchten?"
+
+#: public/class-buddypress-status-public.php:134
+msgid "Profile Status"
+msgstr "Profilstatus"
+
+#: public/class-buddypress-status-public.php:516
+#: public/class-buddypress-status-public.php:583
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: public/class-buddypress-status-public.php:521
+#: public/class-buddypress-status-public.php:588
+#, php-format
+msgid "You and %s other."
+msgstr "Sie und %s andere."
+
+#: public/class-buddypress-status-public.php:526
+#: public/class-buddypress-status-public.php:593
+#, php-format
+msgid "You and %s others."
+msgstr "Sie und %s andere."
+
+#: public/class-buddypress-status-public.php:681
+msgid "others"
+msgstr "andere"
+
+#: public/class-buddypress-status-public.php:688
+msgid "likes this"
+msgstr "gefällt das"
+
+#: public/inc/bpsts-add-status.php:11
+msgid "Note: "
+msgstr "Hinweis: "
+
+#: public/inc/bpsts-add-status.php:12
+msgid ""
+"You can store upto ten status, adding more than that will delete the oldest "
+"one."
+msgstr ""
+"Sie können bis zu 10 Statusversionen speichern. Wenn Sie weitere hinzufügen, "
+"wird die älteste Version gelöscht."
+
+#: public/inc/bpsts-add-status.php:19
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: public/inc/bpsts-add-status.php:20
+msgid "Add & Set Current"
+msgstr "Hinzufügen & Als aktuell setzen"
+
+#: public/inc/bpsts-add-status.php:23
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: public/inc/bpsts-add-status.php:24
+msgid "Update & Set Current"
+msgstr "Aktualisieren & als aktuelle setzen"
+
+#: public/inc/bpsts-add-status.php:35 public/inc/bpsts-add-status.php:57
+msgid "Actions"
+msgstr "Aktionen"
+
+#: public/inc/bpsts-add-status.php:49
+msgid "Set a profile status \"While there's life there's hope.\" "
+msgstr ""
+"Beispiel eines Profilstatus „Solange es Leben gibt, gibt es Hoffnung“. "
+
+#: public/inc/bpsts-add-status.php:72
+msgid "Set this as status icon"
+msgstr "Festlegen dieses Statussymbols"
+
+#: public/inc/bpsts-add-status.php:79
+msgid "Okay"
+msgstr "Okay"
+
+#: public/inc/bpsts-add-status.php:84
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: public/inc/bpsts-add-status.php:97
+msgid "Set a status icon: "
+msgstr "Legen Sie ein Statussymbol fest: "
+
+#: public/inc/bpsts-add-status.php:98
+msgid "Selected icon will appear beside username in member header."
+msgstr ""
+"Das ausgewählte Symbol wird neben dem Benutzernamen in der Kopfzeile des "
+"Profils eines Mitglieds angezeigt."
+
+#. Plugin Name of the plugin/theme
+msgid "BuddyPress Reactions and Status"
+msgstr "BuddyPress Reaktionen und Status"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wbcomdesigns.com/"
+msgstr "https://wbcomdesigns.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"The BuddyPress Reactions and Status plugin lets user add reactions to "
+"buddypress activities and set icons to appear beside their username at "
+"profile page."
+msgstr ""
+"Das BuddyPress Reaktions- und Status-Plugin ermöglicht es dem Benutzer, "
+"Reaktionen auf Buddypress-Aktivitäten hinzuzufügen und Symbole neben seinem "
+"Benutzernamen auf der Profilseite zu setzen."
+
+#. Author of the plugin/theme
+msgid "wbcomdesigns"
+msgstr "wbcomdesigns"

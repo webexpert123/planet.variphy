@@ -1,0 +1,29 @@
+.bpht-hashtags-wrapper.bpht-hashtags-wrapper-list div + div {
+    margin-top: 5px;
+}
+
+.bpht-hashtags-wrapper.bpht-hashtags-wrapper-cloud > div {
+    display: inline-block;
+    margin: 0 4px 4px 0;
+    border-radius: 3px;
+    background: rgba(210, 210, 210, 0.5);
+}
+
+.bpht-hashtags-wrapper.bpht-hashtags-wrapper-cloud > div:hover {
+    background: rgba(210, 210, 210, 0.7);
+}
+
+.bpht-hashtags-wrapper.bpht-hashtags-wrapper-cloud > div a {
+    display: inline-block;
+    padding: 5px 10px;
+    line-height: normal;
+}
+
+.bpht-clear-bp-hashtags {
+    height: 0px !important;
+}
+
+/* Youzify Specific */
+.youzify .bpht-widget--hashtags {
+    padding: 25px;
+}

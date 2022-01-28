@@ -1,0 +1,586 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GamiPress Leaderboards\n"
+"Report-Msgid-Bugs-To: https://gamipress.com/\n"
+"POT-Creation-Date: 2021-01-26 11:56+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GamiPress (https://gamipress.com/)\n"
+"Language-Team: GamiPress <contact@gamipress.com>\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: classes/class-gamipress-leaderboard-table.php:252
+msgid "No users ranked on this leaderboard."
+msgstr ""
+
+#: gamipress-leaderboards.php:167
+#, php-format
+msgid "GamiPress - Leaderboards requires %s (%s or higher) in order to work. Please install and activate it."
+msgstr ""
+
+#: includes/admin.php:40 includes/admin.php:62 includes/admin.php:148
+#: includes/post-types.php:70
+msgid "Leaderboards"
+msgstr ""
+
+#: includes/admin.php:65
+msgid "Leaderboard Post Type"
+msgstr ""
+
+#: includes/admin.php:66
+msgid "From this settings you can modify the default configuration of the leaderboard post type."
+msgstr ""
+
+#: includes/admin.php:70
+msgid "Slug"
+msgstr ""
+
+#: includes/admin.php:76
+msgid "Public"
+msgstr ""
+
+#: includes/admin.php:77
+msgid "Check this option if you want to allow to your visitors access to a leaderboard as a page. Not checking this option will make leaderboard just visible through shortcodes or widgets."
+msgstr ""
+
+#: includes/admin.php:82
+msgid "Supports"
+msgstr ""
+
+#: includes/admin.php:83
+msgid "Check the features you want to add to the leaderboard post type."
+msgstr ""
+
+#: includes/admin.php:87 includes/shortcodes/gamipress_leaderboard.php:24
+msgid "Title"
+msgstr ""
+
+#: includes/admin.php:88
+msgid "Editor"
+msgstr ""
+
+#: includes/admin.php:89
+msgid "Author"
+msgstr ""
+
+#: includes/admin.php:90
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/admin.php:90
+msgid "Featured Image"
+msgstr ""
+
+#: includes/admin.php:91
+msgid "Excerpt"
+msgstr ""
+
+#: includes/admin.php:92
+msgid "Trackbacks"
+msgstr ""
+
+#: includes/admin.php:93
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/admin.php:94
+msgid "Comments"
+msgstr ""
+
+#: includes/admin.php:95
+msgid "Revisions"
+msgstr ""
+
+#: includes/admin.php:96
+msgid "Page Attributes"
+msgstr ""
+
+#: includes/admin.php:97
+msgid "Post Formats"
+msgstr ""
+
+#: includes/admin.php:121
+msgid "GamiPress Leaderboards"
+msgstr ""
+
+#: includes/admin.php:124
+msgid "License"
+msgstr ""
+
+#: includes/admin.php:167
+msgid "Leaderboard Data"
+msgstr ""
+
+#: includes/admin.php:171
+msgid "Number of Users"
+msgstr ""
+
+#: includes/admin.php:172
+msgid "Number of users to rank (0 to all users)."
+msgstr ""
+
+#: includes/admin.php:181
+msgid "Users Per Page"
+msgstr ""
+
+#: includes/admin.php:182
+msgid "Number of users per page (0 to disable pagination)."
+msgstr ""
+
+#: includes/admin.php:191
+msgid "Metrics to track"
+msgstr ""
+
+#: includes/admin.php:192
+msgid "Choose the metrics with which users will be ranked."
+msgstr ""
+
+#: includes/admin.php:204
+msgid "Leaderboard Time Period"
+msgstr ""
+
+#: includes/admin.php:208
+msgid "Period"
+msgstr ""
+
+#: includes/admin.php:209
+msgid "Filter metrics to track based on a specific period selected. By default \"None\", that will rank users based on their current earnings."
+msgstr ""
+
+#: includes/admin.php:214
+msgid "Start Date"
+msgstr ""
+
+#: includes/admin.php:215
+msgid "Period start date. Leave blank to no filter by a start date (metrics will be filtered only to the end date)."
+msgstr ""
+
+#: includes/admin.php:216 includes/admin.php:222
+msgid "Accepts any valid PHP date format."
+msgstr ""
+
+#: includes/admin.php:216 includes/admin.php:222
+msgid "More information"
+msgstr ""
+
+#: includes/admin.php:220
+msgid "End Date"
+msgstr ""
+
+#: includes/admin.php:221
+msgid "Period end date. Leave blank to no filter by an end date (metrics will be filtered from the start date to today)."
+msgstr ""
+
+#: includes/admin.php:232
+msgid "Leaderboard Display Options"
+msgstr ""
+
+#: includes/admin.php:236
+msgid "Columns"
+msgstr ""
+
+#: includes/admin.php:237
+msgid "Choose the columns to show. Drag and drop any option to reorder them."
+msgstr ""
+
+#: includes/admin.php:243
+msgid "Avatar Size"
+msgstr ""
+
+#: includes/admin.php:244
+msgid "Size of the users avatars."
+msgstr ""
+
+#: includes/admin.php:253
+msgid "Merge Avatar & Name Columns"
+msgstr ""
+
+#: includes/admin.php:254
+msgid "Merge the avatar and name columns into one column."
+msgstr ""
+
+#: includes/admin.php:259 includes/shortcodes/gamipress_leaderboard.php:48
+msgid "Show Search"
+msgstr ""
+
+#: includes/admin.php:260 includes/shortcodes/gamipress_leaderboard.php:49
+msgid "Display a search input."
+msgstr ""
+
+#: includes/admin.php:266 includes/shortcodes/gamipress_leaderboard.php:55
+msgid "Enable Sort"
+msgstr ""
+
+#: includes/admin.php:267 includes/shortcodes/gamipress_leaderboard.php:56
+msgid "Enable live column sorting."
+msgstr ""
+
+#: includes/admin.php:273 includes/shortcodes/gamipress_leaderboard.php:62
+msgid "Hide Administrators"
+msgstr ""
+
+#: includes/admin.php:274 includes/shortcodes/gamipress_leaderboard.php:63
+msgid "Hide website administrators."
+msgstr ""
+
+#: includes/admin.php:286
+msgid "Leaderboard Cache Options"
+msgstr ""
+
+#: includes/admin.php:290
+msgid "Enable Cache"
+msgstr ""
+
+#: includes/admin.php:291
+msgid "Check this option to store leaderboard results by a limited time to improve loading time speed."
+msgstr ""
+
+#: includes/admin.php:297
+msgid "Cache Duration"
+msgstr ""
+
+#: includes/admin.php:298
+msgid "How much time should cache be stored (in hours)."
+msgstr ""
+
+#: includes/admin.php:307
+msgid "Cache Information"
+msgstr ""
+
+#: includes/admin.php:313
+msgid "Clear Cache"
+msgstr ""
+
+#: includes/admin.php:324
+msgid "Leaderboard Shortcode"
+msgstr ""
+
+#: includes/admin.php:328
+msgid "Place this shortcode anywhere to display this leaderboard."
+msgstr ""
+
+#: includes/admin.php:414
+msgid "No cache stored."
+msgstr ""
+
+#: includes/admin.php:417
+msgid "Created:"
+msgstr ""
+
+#: includes/admin.php:418
+msgid "Users Ranked:"
+msgstr ""
+
+#: includes/ajax-functions.php:19
+msgid "Please, provide the leaderboard ID."
+msgstr ""
+
+#: includes/ajax-functions.php:25
+msgid "Invalid leaderboard."
+msgstr ""
+
+#: includes/ajax-functions.php:47
+msgid "Not leaderboard provided."
+msgstr ""
+
+#: includes/ajax-functions.php:54
+msgid "Cache cleared successfully."
+msgstr ""
+
+#: includes/functions.php:23
+msgid "Achievement Types"
+msgstr ""
+
+#: includes/functions.php:35
+msgid "Points Types"
+msgstr ""
+
+#: includes/functions.php:43
+msgid "Rank Types"
+msgstr ""
+
+#: includes/functions.php:70
+msgid "User Avatar"
+msgstr ""
+
+#: includes/functions.php:70
+msgid "Avatar"
+msgstr ""
+
+#: includes/functions.php:71
+msgid "User Display Name"
+msgstr ""
+
+#: includes/functions.php:71
+msgid "Name"
+msgstr ""
+
+#: includes/functions.php:170
+msgid "None"
+msgstr ""
+
+#: includes/functions.php:171
+msgid "Today"
+msgstr ""
+
+#: includes/functions.php:172
+msgid "Yesterday"
+msgstr ""
+
+#: includes/functions.php:173
+msgid "Current Week"
+msgstr ""
+
+#: includes/functions.php:174
+msgid "Past Week"
+msgstr ""
+
+#: includes/functions.php:175
+msgid "Current Month"
+msgstr ""
+
+#: includes/functions.php:176
+msgid "Past Month"
+msgstr ""
+
+#: includes/functions.php:177
+msgid "Current Year"
+msgstr ""
+
+#: includes/functions.php:178
+msgid "Past Year"
+msgstr ""
+
+#: includes/functions.php:179
+msgid "Custom"
+msgstr ""
+
+#: includes/post-types.php:32
+msgid "Add New"
+msgstr ""
+
+#: includes/post-types.php:33
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/post-types.php:34
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/post-types.php:35
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/post-types.php:37
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/post-types.php:38
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/post-types.php:39
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/post-types.php:40
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: includes/post-types.php:69 includes/shortcodes/gamipress_leaderboard.php:18
+#: includes/shortcodes/gamipress_leaderboard.php:29
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:25
+msgid "Leaderboard"
+msgstr ""
+
+#: includes/scripts.php:48
+msgid "No data available in table"
+msgstr ""
+
+#: includes/scripts.php:49
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: includes/scripts.php:50
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: includes/scripts.php:51
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: includes/scripts.php:54
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#: includes/scripts.php:55
+msgid "Loading..."
+msgstr ""
+
+#: includes/scripts.php:56
+msgid "Processing..."
+msgstr ""
+
+#: includes/scripts.php:57
+msgid "Search:"
+msgstr ""
+
+#: includes/scripts.php:58
+msgid "No matching records found"
+msgstr ""
+
+#: includes/scripts.php:60
+msgid "First"
+msgstr ""
+
+#: includes/scripts.php:61
+msgid "Last"
+msgstr ""
+
+#: includes/scripts.php:62
+msgid "Next"
+msgstr ""
+
+#: includes/scripts.php:63
+msgid "Previous"
+msgstr ""
+
+#: includes/scripts.php:66
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: includes/scripts.php:67
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard.php:19
+msgid "Render the desired leaderboard."
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard.php:30
+msgid "Choose the leaderboard to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard.php:35
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:31
+msgid "Select a Leaderboard"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard.php:41
+msgid "Show Excerpt"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard.php:42
+msgid "Display the leaderboard short description."
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:19
+msgid "Leaderboard User Position"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:20
+#: includes/widgets/leaderboard-user-position-widget.php:24
+msgid "Render the user position in a leaderboard."
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:26
+msgid "Choose the leaderboard to get the user position."
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:37
+msgid "Current User"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:38
+msgid "Show position of the current logged in user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:43
+msgid "User"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:44
+msgid "Show position of a specific user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:51
+msgid "Text when ranked"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:52
+msgid "Text to show to users ranked on this leaderboard. Available tags:"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:55
+msgid "{user}, you are in position {position} on {leaderboard_link}"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:58
+msgid "Text when not ranked"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:59
+msgid "Text to show to users that has not reach any position on this leaderboard. Available tags:"
+msgstr ""
+
+#: includes/shortcodes/gamipress_leaderboard_user_position.php:62
+msgid "{user}, you are not ranked on {leaderboard_link}"
+msgstr ""
+
+#: includes/template-functions.php:41 includes/template-functions.php:62
+msgid "User display name."
+msgstr ""
+
+#: includes/template-functions.php:42 includes/template-functions.php:63
+msgid "User first name."
+msgstr ""
+
+#: includes/template-functions.php:43 includes/template-functions.php:64
+msgid "User last name."
+msgstr ""
+
+#: includes/template-functions.php:44 includes/template-functions.php:65
+msgid "Leaderboard title."
+msgstr ""
+
+#: includes/template-functions.php:45 includes/template-functions.php:66
+msgid "URL to the leaderboard."
+msgstr ""
+
+#: includes/template-functions.php:46 includes/template-functions.php:67
+msgid "Link to the leaderboard with the leaderboard title as text."
+msgstr ""
+
+#: includes/template-functions.php:47
+msgid "User position on this leaderboard."
+msgstr ""
+
+#: includes/widgets/leaderboard-user-position-widget.php:23
+msgid "GamiPress: Leaderboard User Position"
+msgstr ""
+
+#: includes/widgets/leaderboard-widget.php:23
+msgid "GamiPress: Leaderboard"
+msgstr ""
+
+#: includes/widgets/leaderboard-widget.php:24
+msgid "Render a desired leaderboard."
+msgstr ""

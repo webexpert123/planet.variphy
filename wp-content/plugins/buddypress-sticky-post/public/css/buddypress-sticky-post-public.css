@@ -1,0 +1,274 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+# Loader
+# Themes Specific
+    # Reign
+    # Boss
+    # BuddyBoss
+    # Kleo
+    # OneCommunity
+    # Rehub
+    # Eduma
+    # Aardvark
+    # Gwangi
+    # Olympus
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+.bpsp-pinned-post-tag {
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    right: 0;
+}
+
+[dir='rtl'] .bpsp-pinned-post-tag {
+    left: 0;
+    right: auto;
+}
+
+span.bpsp-txt-title {
+    display: none !important;
+}
+
+.bpsp-pinned-post-tag>span {
+    position: absolute;
+    top: 20px;
+    right: -25px;
+    transform: rotate(40deg);
+    width: 130px;
+    padding: 5px;
+    line-height: 1;
+    color: #fff;
+    font-size: 12px;
+    background: #00b0ff;
+    text-align: center;
+}
+
+[dir='rtl'] .bpsp-pinned-post-tag>span {
+    left: -25px;
+    right: auto;
+    transform: rotate(-40deg);
+}
+
+.bpsp-pinned-post-tag>span .fa {
+    margin-right: 4px;
+}
+
+[dir='rtl'] .bpsp-pinned-post-tag>span .fa {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.bpsp-pinned-post .bpsp-pinned-post-tag {
+    display: block;
+}
+
+.buddypress-sticky-post li.bpsp-pinned-post .activity-header,
+.buddypress-sticky-post #buddypress li.bpsp-pinned-post .activity-header {
+    margin-right: 70px;
+}
+
+.activity-list .activity-item .bp-generic-meta.action div.generic-button .fa,
+.bp-nouveau .activity-list .activity-item .activity-meta.action div.generic-button .fa {
+    min-width: 20px;
+}
+
+/*--------------------------------------------------------------
+# Loader
+--------------------------------------------------------------*/
+.bpsp-pin-tool.loading .fa:before {
+    content: "\f110"!important;
+}
+
+.bpsp-pin-tool.loading .fa-flip-vertical {
+    transform: none;
+}
+
+.bpsp-pin-tool.loading .fa {
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+#youzify .activity-meta .bpsp-pin-tool.loading:before {
+    display: none !important;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotateZ(0); }
+    100% {
+        -webkit-transform: rotateZ(360deg);
+    }
+}
+
+/*--------------------------------------------------------------
+## Reign
+--------------------------------------------------------------*/
+.bp-legacy.theme-reign-theme .bpsp-pin-tool {
+    padding: 5px !important;
+}
+
+/*--------------------------------------------------------------
+## Boss
+--------------------------------------------------------------*/
+#buddypress #activity-stream li {
+    position: relative;
+}
+
+#right-panel .activity-meta .generic-button {
+    display: inline;
+}
+
+#right-panel .bpsp-pinned-post .activity-content {
+    padding-right: 100px;
+}
+
+#right-panel .bpsp-pin-tool.loading .fa {
+    display: none;
+}
+
+/*--------------------------------------------------------------
+## Buddyboss
+--------------------------------------------------------------*/
+.buddyboss-theme .bpsp-unpin-post:before,
+.buddyboss-theme .bpsp-unpin-post:after {
+    display: none;
+}
+
+.buddyboss-theme #buddypress .activity-list .action.bp-generic-meta .button.bpsp-pin-tool i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.buddyboss-theme #buddypress .activity-list .action.bp-generic-meta .button.bpsp-pin-tool .bpsp-txt-title{
+    margin-top: -5px;
+}
+
+.buddyboss-theme #buddypress .activity-list .action.bp-generic-meta .button.bpsp-pin-tool:after,
+.buddyboss-theme #buddypress .activity-list .action.bp-generic-meta .button.bpsp-pin-tool:before{
+    display: none;
+}
+
+.bpsp-pinned-post .bpsp-pinned-post-tag.bbplatform_pin_sticky{
+    width: 30px;
+    height: 30px;
+    top: 13px;
+    right: 48px;
+} 
+
+.bpsp-pinned-post .bpsp-pinned-post-tag.bbplatform_pin_sticky>span{
+    transform: none;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    border-radius: 2px;
+}
+
+.bpsp-pinned-post .bpsp-pinned-post-tag.bbplatform_pin_sticky>span .fa{
+    margin-right: 0;
+    font-size: 15px;
+}
+
+/*--------------------------------------------------------------
+## Kleo
+--------------------------------------------------------------*/
+body.kleo .bpsp-pin-tool .fa,
+body.kleo .bpsp-pin-tool .bpsp-txt-title,
+.kleo-page .bpsp-pin-tool .fa,
+.kleo-page .bpsp-pin-tool .bpsp-txt-title {
+    display: none;
+}
+
+.kleo-page #buddypress a.button.fav,
+.kleo-page #buddypress a.button.unfav {
+    z-index: 1;
+}
+
+/*--------------------------------------------------------------
+## OneCommunity
+--------------------------------------------------------------*/
+body.onecommunity .activity-list .activity-item .activity-meta.action .button.bpsp-pin-tool .fa {
+    display: none;
+}
+
+/*--------------------------------------------------------------
+## Rehub
+--------------------------------------------------------------*/
+body.rehub-theme #buddypress div.activity-meta a.bpsp-pin-tool:hover span {
+    background: none;
+}
+
+body.rehub-theme #buddypress div.activity-meta a.bpsp-pin-tool .fa {
+    display: none;
+}
+
+/*--------------------------------------------------------------
+## Eduma
+--------------------------------------------------------------*/
+body.eduma #buddypress div.activity-meta a.bpsp-pin-tool .fa {
+    display: none;
+}
+
+/*--------------------------------------------------------------
+## Aardvark
+--------------------------------------------------------------*/
+.gp-theme #buddypress div.activity-meta .bpsp-pin-tool i:before {
+    margin-right: 5px;
+}
+
+body.gp-theme #buddypress .bpsp-pinned-post div.activity-meta a.fav,
+body.gp-theme #buddypress .bpsp-pinned-post div.activity-meta a.unfav {
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+}
+
+/*--------------------------------------------------------------
+## Gwangi
+--------------------------------------------------------------*/
+.grimlock #buddypress:not(.youzer) #activity-stream.grimlock-buddypress-activity-list .activity-item .activity-options > a.bpsp-pin-tool {
+    color: #fff !important;
+}
+
+.grimlock #buddypress:not(.youzer) #activity-stream.grimlock-buddypress-activity-list .activity-item .activity-options > a.bpsp-pin-tool i {
+    margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+    .grimlock #buddypress:not(.youzer) #activity-stream.grimlock-buddypress-activity-list .activity-item.bpsp-pinned-post .dropdown-activity {
+        top: 0;
+        right: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+## Olympus
+--------------------------------------------------------------*/
+.olympus-theme .bpsp-pinned-post .youzify-show-item-tools {
+    z-index: 2;
+}

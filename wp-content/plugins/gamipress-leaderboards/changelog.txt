@@ -1,0 +1,115 @@
+== Changelog ==
+
+= 1.1.9 =
+
+* **Improvements**
+* Allow translate leaderboard frontend texts.
+
+= 1.1.8 =
+
+* **Improvements**
+* Removed the backward compatibility "Default Points" option from leaderboard's metrics and columns fields.
+
+= 1.1.7 =
+
+* **New Features**
+* Added support to GamiPress 1.7.0.
+* **Improvements**
+* Force shortcodes to return at least an empty string.
+* Improved leaderboards and user selector on widgets area and shortcode editor.
+* Great amount of code reduction thanks to the new GamiPress 1.7.0 API functions.
+
+= 1.1.6 =
+
+* **Improvements**
+* Changed leaderboard custom period fields to the new GamiPress date fields in order to bring maximum flexibility defining custom periods. ([More information](https://gamipress.com/docs/advanced/date-fields/)).
+* Prevent to use wpdb::prepare() if not needed.
+
+= 1.1.5 =
+
+* **New Features**
+* Added the ability to filter a leaderboard by a predefined time periods (today, yesterday, current week/month/year and past week/month/year).
+* Added the ability to filter a leaderboard by a custom time period.
+
+= 1.1.4 =
+
+* **Improvements**
+* Improved the way that leaderboard selector gets loaded on widgets area.
+* Leaderboard selector query now includes leaderboards with private status as results.
+
+= 1.1.3 =
+
+* **Bug Fixes**
+* Fixed a bug that provides an invalid user position when user account has been created recently.
+
+= 1.1.2 =
+
+* **New Features**
+* Full support to GamiPress Gutenberg blocks.
+
+= 1.1.1 =
+
+* **Bug Fixes**
+* Adding the leaderboard widget, sometimes leaderboard selector doesn't loads correctly until save the widget again.
+* Improvements
+* Added support to WordPress 5.0.
+
+
+= 1.1.0 =
+
+* **New Features**
+* Added support to GamiPress points format options.
+* Added support to GamiPress admin bar menu.
+
+= 1.0.9 =
+
+* Added more filters to the Leaderboard table class.
+
+= 1.0.8 =
+
+* Added the [gamipress_leaderboard_user_position] shortcode.
+* Added the GamiPress: Leaderboard User Position widget.
+* Improved leaderboard meta data loaded when rendering a leaderboard.
+* Added more filters to the Leaderboard table class.
+* Fixed wrong priority when overwriting a template.
+* Added checks to reload leaderboard selector on widgets after save the widget.
+* Improved multisite support.
+
+= 1.0.7 =
+
+* Added support for multisite administrators when hide administrators is enabled.
+* Fixed issue with older MySQL version.
+
+= 1.0.6 =
+
+* Added filters to the leaderboard query and their vars (before and after of getting processed).
+* Fixed wrong leaderboard position calculation.
+
+= 1.0.5 =
+
+* Improvements on leaderboard query.
+
+= 1.0.4 =
+
+* New feature: Hide website administrators.
+* Added the field "Hide Administrators" to the leaderboard edit screen.
+* Added the attribute "hide_admins" to the [gamipress_leaderboard] shortcode.
+* Added the field "Hide Administrators" to the GamiPress: Leaderboard widget.
+* Fixed issue with numeric type names.
+
+= 1.0.3 =
+
+* Added support for GamiPress Ranks.
+* Added ranks as metric option.
+
+= 1.0.2 =
+
+* Added support for GamiPress 1.2.8
+
+= 1.0.1 =
+
+* Fixed issue with user display name and avatar columns.
+
+= 1.0.0 =
+
+* Initial release.

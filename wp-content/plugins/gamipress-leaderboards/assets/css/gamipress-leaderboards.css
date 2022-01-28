@@ -1,0 +1,198 @@
+.gamipress-leaderboard-table {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+
+.gamipress-leaderboard-table thead th:active,
+.gamipress-leaderboard-table thead td:active {
+    outline: none;
+}
+
+.gamipress-leaderboard-table thead .sorting,
+.gamipress-leaderboard-table thead .sorting_asc,
+.gamipress-leaderboard-table thead .sorting_desc,
+.gamipress-leaderboard-table thead .sorting_asc_disabled,
+.gamipress-leaderboard-table thead .sorting_desc_disabled {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.gamipress-leaderboard-table thead .sorting {
+    background-image: url("../img/sort_both.png");
+}
+
+.gamipress-leaderboard-table thead .sorting_asc {
+    background-image: url("../img/sort_asc.png");
+}
+
+.gamipress-leaderboard-table thead .sorting_desc {
+    background-image: url("../img/sort_desc.png");
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable:not(.gamipress-leaderboard-table-force-responsive-toggleable) tr td[style*="display:none"],
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable:not(.gamipress-leaderboard-table-force-responsive-toggleable) tr td[style*="display: none"] {
+        display: table-cell !important;
+    }
+}
+
+/* Leaderboards in small areas (with support for iPads screens) */
+@media only screen
+and (max-width: 760px), (min-device-width: 768px)
+and (max-device-width: 1024px) {
+
+    .gamipress-leaderboard-table-responsive,
+    .gamipress-leaderboard-table-responsive thead,
+    .gamipress-leaderboard-table-responsive tbody,
+    .gamipress-leaderboard-table-responsive th,
+    .gamipress-leaderboard-table-responsive td,
+    .gamipress-leaderboard-table-responsive tr {
+        display: block;
+        width: 100%;
+    }
+
+    .gamipress-leaderboard-table-responsive thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .gamipress-leaderboard-table-responsive tr td:before {
+        content: attr(data-label);
+        display: inline-block;
+        float: left;
+        text-align: left;
+        width: 45%;
+        padding-right: 5%;
+        white-space: nowrap;
+        font-weight: bold;
+    }
+
+    /* Toggleable columns */
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable thead tr {
+        position: inherit;
+    }
+
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr th.column-position,
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr th.column-avatar,
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr th.column-display_name {
+        flex: 1 1 0;
+    }
+
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable thead tr th:not(.column-position):not(.column-avatar):not(.column-display_name) {
+        display: none;
+    }
+
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr td.column-position,
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr td.column-avatar,
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr td.column-display_name {
+        cursor: pointer;
+        flex: 1 1 0;
+    }
+
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr td.column-position:before,
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr td.column-avatar:before,
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr td.column-display_name:before {
+        display: none;
+    }
+
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable tr td:not(.column-position):not(.column-avatar):not(.column-display_name) {
+        display: none;
+        flex-basis: 100%;
+        text-align: right;
+    }
+
+    .gamipress-leaderboard-table-responsive.gamipress-leaderboard-table-responsive-toggleable td[style*="table-cell"] {
+        display: block !important;
+    }
+}
+
+/* Force responsive */
+.gamipress-leaderboard-table-force-responsive,
+.gamipress-leaderboard-table-force-responsive thead,
+.gamipress-leaderboard-table-force-responsive tbody,
+.gamipress-leaderboard-table-force-responsive th,
+.gamipress-leaderboard-table-force-responsive td,
+.gamipress-leaderboard-table-force-responsive tr {
+    display: block;
+    width: 100%;
+}
+
+.gamipress-leaderboard-table-force-responsive thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.gamipress-leaderboard-table-force-responsive tr td:before {
+    content: attr(data-label);
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 45%;
+    padding-right: 5%;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+/* Toggleable columns */
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable thead tr {
+    position: inherit;
+}
+
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr th.column-position,
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr th.column-avatar,
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr th.column-display_name {
+    flex: 1 1 0;
+}
+
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable thead tr th:not(.column-position):not(.column-avatar):not(.column-display_name) {
+    display: none;
+}
+
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr td.column-position,
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr td.column-avatar,
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr td.column-display_name {
+    cursor: pointer;
+    flex: 1 1 0;
+}
+
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr td.column-position:before,
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr td.column-avatar:before,
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr td.column-display_name:before {
+    display: none;
+}
+
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable tr td:not(.column-position):not(.column-avatar):not(.column-display_name) {
+    display: none;
+    flex-basis: 100%;
+    text-align: right;
+}
+
+.gamipress-leaderboard-table-force-responsive.gamipress-leaderboard-table-force-responsive-toggleable td[style*="table-cell"] {
+    display: block !important;
+}

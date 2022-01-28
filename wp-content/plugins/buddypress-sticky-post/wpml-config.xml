@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="bpsp_general_settings">
+            <key name="pin_post_lbl" />
+            <key name="unpin_post_lbl" />            
+        </key>		
+    </admin-texts>
+</wpml-config>

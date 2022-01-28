@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------
+This is your custom stylesheet.
+
+Add your own styles here to make theme updates easier.
+To override any styles from other stylesheets, simply copy them into here and edit away.
+
+Make sure to respect the media queries! Otherwise you may
+accidentally add desktop styles to the mobile layout.
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+--------------------------------------------------------------*/
+
+#buddyboss-media-open-uploader-button { display: none }
+.bp-search-page.buddypress-wrap.child-theme-search-result p.knowledge-base.active.current.selected span.count { background-color: #007CFF; }
+.bp-search-page.buddypress-wrap.child-theme-search-result p.knowledge-base span.count { padding: 5px 7px 5px; }
+.bp-search-results-wrapper.dir-form .search_results .post-inner-wrap { border: 1px solid #E7E9EC; border-left: 0px; border-right: 0px; padding: 15px 0px; }
+.bp-search-results-wrapper.dir-form .search_results .entry-content-wrap { padding: 0px; border: 0px; }
+.bp-search-results-wrapper.dir-form .search_results .post-inner-wrap h2.entry-title { font-size: 14px; color: #122b46; letter-spacing: -.21px; line-height: 1.35; margin: 0px 0 6px; text-align: left; font-weight: 500; }
+.bp-search-results-wrapper.dir-form .search_results .post-inner-wrap header.entry-header { margin: 0px; }
+.bp-search-results-wrapper.dir-form .search_results .post-inner-wrap .entry-content { font-size: 14px; color: #939597; letter-spacing: -.24px; line-height: 1.3; margin-bottom: 6px; }
+.bp-search-results-wrapper.dir-form .search_results .post-inner-wrap:hover { box-shadow: none; }
+.bp-search-page.buddypress-wrap.child-theme-search-result .paginationjs .paginationjs-pages li { border: 0px; }
+.bp-search-page.buddypress-wrap.child-theme-search-result .paginationjs .paginationjs-pages li:last-child { border-right: 0px solid #aaa; border-radius: 0px; }
+.bp-search-page.buddypress-wrap.child-theme-search-result .paginationjs li.paginationjs-prev, .paginationjs li.paginationjs-next a { color: #888; }
+.bp-search-page.buddypress-wrap.child-theme-search-result .paginationjs .paginationjs-pages li a { color: #007CFF; font-family: 'SF UI Text', sans-serif; }
+.bp-search-page.buddypress-wrap.child-theme-search-result .paginationjs .paginationjs-pages li.active>a { color: #007CFF; background-color: transparent; font-weight: bold; }
+.bp-search-page.buddypress-wrap.child-theme-search-result .search_results { width: 77%; max-width: 77%; flex: 0 0 77%; position: relative; padding-bottom: 150px; }
+.bp-search-page.buddypress-wrap.child-theme-search-result div#pagination-demo1 { position: absolute; left: 50%; margin-bottom: 100px; bottom: 0; }
+.bp-search-page.buddypress-wrap.child-theme-search-result .paginationjs .paginationjs-pages li a:hover { background-color: transparent; }
+@media only screen and (max-width:1172px) {
+.bp-search-page.buddypress-wrap.child-theme-search-result .search_results { width: 68%; max-width: 68%; flex: 0 0 68%; }
+}
+@media only screen and (max-width: 900px) {
+.bp-search-page.buddypress-wrap.child-theme-search-result .search_results { width: 100%; max-width: 100%; flex: 0 0 100%; }
+.bp-search-page.buddypress-wrap.child-theme-search-result div#pagination-demo1 { left: 0%; padding-left: 30px; }
+header.search-results-header h1.entry-title { font-size: 24px; }
+}
+#buddypress .bp-search-results-wrapper .bp-navs a.knowledge-base-link:before { content: ""; background-image: url('/wp-content/uploads/2021/07/kb-icon.png'); width: 24px; height: 24px; line-height: 24px; background-repeat: no-repeat; background-size: cover; background-position: center; }
+.item.knowledge-item { padding-left: 105px; padding-top: 2px; padding-bottom: 2px; }
+.item.knowledge-item a { color: #000 !important; font-size: 14px !important; }
+span.member-status.offline { background: #808080 !important; }
+span.member-status.idle { background: #FFFF00 !important; }
+.buddyboss-comment-media-add-photo { display: none; }
+body.directory.activity.buddypress.bp-nouveau.page-template-default.page.page-id-0.page-parent.logged-in.admin-bar.no-customize-support.buddyboss-theme.bb-custom-typo.has-sidebar.activity-sidebar-left.sticky-header.buddyboss-media-has-photos-type.bp-search.wpb-js-composer.js-comp-ver-6\.6\.0.vc_responsive.js.bb-page-loaded .entry-title { display: none; }
+body.home-page.directory.activity.buddypress.bp-nouveau.home.page-template-default .entry-title { display: none; }
+body.directory.activity .joined_group .acomment-reply { display : none !important; }
+/*
+body.directory.activity  .groups.bbp_reply_create a.button.acomment-reply.bp-primary-action {
+  display : none !important;
+}*/
+
+
+
+#buddyboss-media-open-uploader-button { display: none }
+li#activity-groups-li { display: none; }
+.additional-search p.knowledge-base { margin: 0 0 -0.3125rem !important; }
+.bp-search-ac .x { display: block !important; }
+/* hied gamipress award feed */
+.gamipress.activity_update { display: none !important; }
+/*-- my css --*/
+body #secondary-right aside#block-2 ul#groups-list li { padding: 10px 0; border: 0px; display: flex; align-items: center; margin-bottom: 0; flex: 1; min-width: 100%; }
+body #secondary-right aside#block-2 ul#groups-list li .list-wrap { padding: 0px; border: 0px; }
+body #secondary-right aside#block-2 ul#groups-list li .list-wrap .item-avatar img { width: 40px; height: 40px; vertical-align: middle; }
+body #secondary-right aside#block-2 ul#groups-list li .list-wrap .item h2.list-title.groups-title a { color: #122B46; font-size: .9375rem;
+font-weight: 500; letter-spacing: -.24px; vertical-align: top; padding-top: 1px; line-height: 18px; }
+body #secondary-right aside#block-2 ul#groups-list li .list-wrap:hover { box-shadow: none; }
+body #secondary-right aside#block-2 ul#groups-list li .list-wrap .item h2.list-title.groups-title a:hover { color: #007CFF; }
+body #secondary-right aside#block-2 p { display: none; }
+body #secondary-right aside#block-2 h2.widget-title { margin-bottom: 15px; }

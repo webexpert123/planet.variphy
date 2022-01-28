@@ -1,0 +1,81 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/*----------  Active tab design  ----------*/
+.nav-tab.active {
+    background: #f1f1f1;
+    color: #000;
+}
+
+/*----------  General tab design  ----------*/
+@media screen and (max-width: 782px) {
+    .form-table.polls-general-options label {
+        font-size: 14px;
+        display: inline-block;
+        margin: 0.35em 0 0.5em !important;
+    }
+}
+
+/*----------  Support tab css  ----------*/
+.bpolls-support-setting{
+    float: left;
+    width: 90%;
+}
+.bpolls-faq-row{
+    border-top: 1px solid #ddd;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.bpolls-admin-col-12 {
+    float: left;
+    padding: 10px 0;
+    width: 100%;
+}
+button.bpolls-accordion {
+    background-color: hsl(0, 0%, 87%);
+    border: medium none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: hsl(0, 0%, 27%);
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 5%;
+    outline: medium none;
+    padding: 15px 20px;
+    text-align: left;
+    transition: all 0.4s ease 0s;
+    width: 90%;
+}
+button.bpolls-accordion.active, button.bpolls-accordion:hover {
+    background-color: hsl(207, 90%, 54%);
+    color:white;
+}
+div.bpolls-panel {
+    background-color: white;
+    margin:0px 5%;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 18px;
+    transition: max-height 0.2s ease-out;
+}
+button.bpolls-accordion::after {
+    color: hsl(0, 0%, 47%);
+    content: "+";
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+button.bpolls-accordion::after:hover {
+    color: white;
+}
+button.bpolls-accordion.active::after {
+    content: "−";
+    color:white;
+}
+.bpolls_excluding_member{
+    width:70%;
+}
